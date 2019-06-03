@@ -1,5 +1,6 @@
 # .NET Coding Conventions
-    This is a draft made from personal assembly of coding conventions. For wider audience, all points should be considered in proposal state. Also, the doc should be restructured, reworded (more strict language) and include DOs and DON'Ts. 
+
+**This is a draft made from personal assembly of coding conventions. For wider audience, all points should be considered in proposal state. Also, the doc should be restructured, reworded (more strict language) and include DOs and DON'Ts.**
  
 - Exception messages very rarely need to end with an exclamation point. Source: [english grammar](http://grammar.yourdictionary.com/punctuation/when/when-to-use-exclamation-marks.html), [SO](https://stackoverflow.com/questions/259887/what-style-do-you-use-for-exception-messages)
 

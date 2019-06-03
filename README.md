@@ -34,7 +34,7 @@ Two-letter combinations are possible. For example, **CD** denotes "some topics i
 
 ## Contribution
 
-The idea is a pilot, and any suggestions to improve the structure are welcome.
+The idea is a pilot and any suggestions to improve the structure are welcome.
 
 Ideally, every important topic (a heading, or a bullet list item) should be a link to the article or some other resource that is most relevant to the topic in question. If there is no link:
 
@@ -52,11 +52,11 @@ Copyrighted material (e.g. PDF books) is not allowed in this repository.
 
 ## Table of Contents
 
-- [General Programming](programming/index)
-- [JavaScript](js/index)
-- [SASS and Styling](sass/index)
-- [CxJS](cxjs/index)
+- [General Programming](programming/index.md)
+- [JavaScript](js/index.md)
+- [SASS and Styling](sass/index.md)
+- [CxJS](cxjs/index.md)
 - [.NET](dotnet/index.md)
-- [Git](git/index)
-- [Cloud](cloud/index)
-- [DevOps](devops/index)
+- [Git](git/index.md)
+- [Cloud](cloud/index.md)
+- [DevOps](devops/index.md)
