@@ -56,7 +56,7 @@ Copyrighted material (e.g. PDF books) is not allowed in this repository.
 - [JavaScript](js/index)
 - [SASS and Styling](sass/index)
 - [CxJS](cxjs/index)
-- [.NET](dotnet/index)
+- [.NET](dotnet/index.md)
 - [Git](git/index)
 - [Cloud](cloud/index)
 - [DevOps](devops/index)
