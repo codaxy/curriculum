@@ -39,7 +39,7 @@ This is a pilot project and any suggestions to improve the structure are welcome
 Ideally, every important topic (a heading, or a bullet list item) should be a link to the article or some other resource that is a great and most relevant read for the topic in question. If there is no link:
 
 - wording should be clear enough so you can easily Google the terms, or find them in a reference book and
-- the topic is such that ideally zero style/best practice/convention discrepancies can be introduced by consulting different sources
+- the topic is such that no style/best practice/convention discrepancies can be introduced by consulting different sources by different team members
 
 Since there will usually be more than one link for each topic, the rest of them can be listed in **Useful resources** section within a topic group.
 
