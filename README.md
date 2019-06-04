@@ -11,7 +11,7 @@ This repository contains Codaxy's own technology curriculum with some helpful le
 - review and brush up their skills in their own and foreign areas
 - make it easier to direct their research path
 
-## What this is not?
+## What this is not
 
 This is in no way a complete list of things a developer should know about, especially in their own field(s) of expertise.
 
