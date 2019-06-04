@@ -4,9 +4,9 @@
 
 This repository contains Codaxy's own technology curriculum with some helpful learning resources. It is conceived as Codaxy developer's go-to reference that helps all teams and team members to:
 
-- have an overview on what tech Codaxy covers and to what extent
+- have an overview on what tech Codaxy covers
 - have a clear understanding of what they should be familiar with (in minimum) and easily communicate requirements to new team members
-- stay in sync with other teams/members regarding coding practices, styles, methodologies used
+- stay in sync with other teams/members regarding methodologies, conventions, style, best practices
 - easily find relevant answers to FAQs and common dilemmas
 - review and brush up their skills in their own and foreign areas
 - make it easier to direct their research path
@@ -17,9 +17,9 @@ This is in no way a complete list of things a developer should know about, espec
 
 ## Categorization
 
-Curriculum is divided into major tracks (JavaScript, SASS, CxJS, etc.). There are some topics ("must-knows") in each track that ideally everyone should be familiar with, regardless of their own field. The rest is for developers of a particular profile.
+Curriculum is divided into tracks (JavaScript, SASS, CxJS, etc.). There are some topics ("must-knows") in each track that ideally everyone should be familiar with, regardless of their own field. The rest is for developers of a particular profile.
 
-Topics, or topic groups may be labeled so they can be easily referenced in internal workshops when it makes sense (e.g. *Our next .NET workshop will cover things from **NET-API**, **NET-API-02**, **NET-ERR** and **NET-LOG***), in order to identify intended workshop audience at a glance.
+Topics, or topic groups may be labeled so they can be easily referenced in internal workshops when it makes sense, in order to identify intended workshop audience at a glance.
 
 In addition, each group has a label that describes who should be familiar with it:
 
@@ -34,14 +34,14 @@ Two-letter combinations are possible. For example, **CD** denotes "some topics i
 
 ## Contribution
 
-The idea is a pilot and any suggestions to improve the structure are welcome.
+This is a pilot project and any suggestions to improve the structure are welcome.
 
 Ideally, every important topic (a heading, or a bullet list item) should be a link to the article or some other resource that is most relevant to the topic in question. If there is no link:
 
 - wording should be clear enough so you can easily Google the terms, or find them in a reference book and
 - the topic is such that ideally zero style/best practice/convention discrepancies can be introduced by consulting different sources
 
-Since there will usually be more than one link for each topic and some links cover more than one topic, the rest of them can be listed in **Useful links** section within a topic group.
+Since there will usually be more than one link for each topic, the rest of them can be listed in **Useful resources** section within a topic group.
 
 In general, any style/best practice/convention dilemmas should be dealt with explicitly:
 
