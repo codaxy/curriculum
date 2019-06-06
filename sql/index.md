@@ -18,7 +18,7 @@
 ##### [DB-QUERY-2] [C]
 - Basic DDL queries: create a database, drop a database, create a table, alter a table/column, ...
 - Basic and to some extent nested SQL queries to fetch data from database tables
-- Concepts of "Primary key", "Foreign key"
+- Details of "Primary key", "Foreign key" concepts
 
 ## Performance Optimization 
 ##### [DB-OPT-1] [C]
