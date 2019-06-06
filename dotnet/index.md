@@ -10,18 +10,20 @@
 ##### [NET-CS] [A]
 - Encapsulation and access modifiers
 - Properties, getters, setters
+- 
+##### [NET-CS-02] [C]
 - Value types, reference types
 - Static fields, static classes
 - Extension methods
+- Collections and other useful data types
 
-##### [NET-CS-02] [CD]
+##### [NET-CS-03] [CD]
 - Generics
 - Async / await
 - Linq
-- Collections and other useful data types
 - Serialization, JSON.NET
-- Named tuples, deconstruction*
-- Covariance, contravariance*
+- Named tuples, deconstruction
+- Covariance, contravariance
 
 #### Useful resources
 
