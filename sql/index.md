@@ -13,40 +13,58 @@
 
 ##### [DB-QUERY-1] [A]
 - DML queries
+
+##### [DB-QUERY-2] [B]
+- Details of "Primary key", "Foreign key" concepts
 - Data aggregation
 
-##### [DB-QUERY-2] [C]
+##### [DB-QUERY-3] [C]
+- Nested SQL queries to fetch data from database tables
 - Basic DDL queries: create a database, drop a database, create a table, alter a table/column, ...
-- Basic and to some extent nested SQL queries to fetch data from database tables
-- Details of "Primary key", "Foreign key" concepts
+
+##### [DB-JOINS-1] [B]
+- Basic knowledge of SQL join types
+ 
+##### [DB-JOINS-2] [CD]
+- Multiple-type joins
+- SQL joining & nullable columns
+- SQL join optimization
+
+## Indexes 
+##### [DB-INDEX-1] [B]
+- Indexing purpose
+
+##### [DB-INDEX-2] [C]
+- Types of SQL indexes
+- Index creation and selecting column candidates
+
+##### [DB-INDEX-3] [D]
+- Index optimization and maintenance
+- Index fragmentation
+
 
 ## Performance Optimization 
-##### [DB-OPT-1] [C]
+##### [DB-OPT-1] [D]
 - Detailed Execution Plan analysis
 - Optimizing data types
 
 ##### [DB-OPT-2] [DE]
 - Data storage optimization
 
-## SQL Joins
-##### [DB-JOINS-1] [C]
-- Basic knowledge of SQL join types
-- Multiple-type joins
- 
-##### [DB-JOINS-2] [CD]
- - SQL joining & nullable columns
- - SQL join optimization
+##### Useful resources
+- [A Guide to DB Performance for Developers](https://use-the-index-luke.com/sql/anatomy)
 
-## Database Administration 
-##### [DB-ADMIN-1] [A]
-- Database backups
 
-##### [DB-ADMIN-2] [CD]
- - Database Logs
- - Database storage files
- 
-##### [DB-ADMIN-3] [D]
- - SQL Replication
+## Database Programming
+##### [DB-PROG-1] [C]
+- SQL Stored procedures and optimization
+- SQL Functions
+- SQL Views
+
+##### [DB-PROG-2] [DE]
+- SQL Indexed Views
+- SQL SP parameter sniffing
+
 
 ## Database Schema Design
 ##### [DB-SCHEMA-1] [C]
@@ -57,34 +75,20 @@
 - Database normalization with special accent on the 3rd Normal Form (3NF)
 - Attribute (data) types
 
-## Indexes 
-##### [DB-INDEX-1] [A]
-- Indexing purpose
+## Database Administration 
+##### [DB-ADMIN-1] [C]
+- Database backups
 
-##### [DB-INDEX-2] [C]
-- Types of SQL indexes
-- Index creation and selecting column candidates
-
-##### [DB-INDEX-3] [CD]
-- Index optimization and maintenance
-- Index fragmentation
-- How are joins stored? (e.g. B-Tree data structures)
+##### [DB-ADMIN-2] [D]
+ - Database Logs
+ - Database storage files
  
-##### Useful resources
-- [A Guide to DB Performance for Developers](https://use-the-index-luke.com/sql/anatomy)
-
-## Database Programming
-##### [DB-PROG-1] [C]
-- SQL Stored procedures and optimization
-- SQL Functions
-- SQL Views
-
-##### [DB-PROG-2] [CD]
-- SQL Indexed Views
-- SQL SP parameter sniffing
+##### [DB-ADMIN-3] [E]
+ - SQL Replication
+ 
 
 ## Database Testing
-##### [DB-TEST] [D]
+##### [DB-TEST] [EF]
 - Black box testing, white box testing
 - Load testing
 - Writing test cases
@@ -103,17 +107,17 @@
 - Data Analysis querying: DAX, MDX
 
 ## Reporting methodologies
-##### [DB-REPORT-1] [C]
+##### [DB-REPORT-1] [D]
 - Reporting tools
 - Extracting data for reports
 - Data validation
 
-##### [DB-REPORT-2] [D]
+##### [DB-REPORT-2] [E]
 - Ad-hoc reporting
 - Deploying reports
 
 ## Data Engineering & the ETL process 
-##### [DB-ENG] [D]
+##### [DB-ENG] [DE]
 - Getting the data from various data sources
 - Data transformation (DML actions)
 - Data aggregation
