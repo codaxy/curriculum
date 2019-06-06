@@ -17,14 +17,15 @@ This is in no way a complete list of things a developer should know about, espec
 
 ## Categorization
 
-Curriculum is divided into tracks (JavaScript, SASS, CxJS, etc.). There are some topics ("must-knows") in each track that ideally everyone should be familiar with, regardless of their own field. The rest is for developers of a particular profile.
+Curriculum is divided into tracks (JavaScript, SASS, CxJS, etc.). There are some topics ("must-knows") in each track that ideally everyone should be familiar with, regardless of their own field.
+"Good-to-know" topics are not mandatory, but they are recommended--again, regardless of the field. The rest is for developers of a particular profile.
 
 Topics, or topic groups may be labeled so they can be easily referenced in internal workshops when it makes sense, in order to identify intended workshop audience at a glance.
 
 In addition, each group has a label that describes who should be familiar with it:
 
 * **A** - must-know
-* **B** - curious about the field
+* **B** - good to know, curious about the field
 * **C** - junior level
 * **D** - medior level
 * **E** - senior level
