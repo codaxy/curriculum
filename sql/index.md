@@ -12,13 +12,13 @@
 ## Querying 
 
 ##### [DB-QUERY-1] [A]
+- DML queries
+- Data aggregation
+
+##### [DB-QUERY-2] [C]
 - Basic DDL queries: create a database, drop a database, create a table, alter a table/column, ...
 - Basic and to some extent nested SQL queries to fetch data from database tables
 - Concepts of "Primary key", "Foreign key"
-
-##### [DB-QUERY-2] [C]
-- DML queries
-- Data aggregation
 
 ## Performance Optimization 
 ##### [DB-OPT-1] [C]
@@ -38,14 +38,14 @@
  - SQL join optimization
 
 ## Database Administration 
-##### [DB-ADMN-1] [A]
+##### [DB-ADMIN-1] [A]
 - Database backups
 
-##### [DB-ADMN-2] [CD]
+##### [DB-ADMIN-2] [CD]
  - Database Logs
  - Database storage files
  
-##### [DB-ADMN-3] [D]
+##### [DB-ADMIN-3] [D]
  - SQL Replication
 
 ## Database Schema Design
@@ -58,14 +58,14 @@
 - Attribute (data) types
 
 ## Indexes 
-##### [DB-INDEX-0] [A]
+##### [DB-INDEX-1] [A]
 - Indexing purpose
 
-##### [DB-INDEX-1] [C]
+##### [DB-INDEX-2] [C]
 - Types of SQL indexes
 - Index creation and selecting column candidates
 
-##### [DB-INDEX-2] [CD]
+##### [DB-INDEX-3] [CD]
 - Index optimization and maintenance
 - Index fragmentation
 - How are joins stored? (e.g. B-Tree data structures)
