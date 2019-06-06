@@ -1,4 +1,4 @@
-# SQL
+# Databases and SQL
 
 ## Database Concepts
 ##### [DB-CON-1] [A]
