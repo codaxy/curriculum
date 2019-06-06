@@ -2,7 +2,7 @@
 
 ## Grammar and types 
 
-##### [JS-CS] [A]
+##### [JS-GRAMMAR] [A]
 - Basic syntax & comments
 - Declarations
 - Variable scope
@@ -10,12 +10,12 @@
 - Data structures and types (primitives)
 - Literals
 
-##### [JS-CS] [C]
+##### [JS-GRAMMAR] [C]
 - Destructuring assignment syntax
 
 ## Control flow and error handling
 
-##### [JS-CS] [A]
+##### [JS-FLOW] [A]
 - `if...else`
 - `switch`
 - `try`/`catch`/`throw`
@@ -23,33 +23,33 @@
 
 ## Loops and iteration
 
-##### [JS-CS] [A]
+##### [JS-LOOPS] [A]
 - `for`
 - `while`
 - `do...while`
 - `break`/`continue`
 - `for..in`
-##### [JS-CS] [C]
+##### [JS-ITERATORS] [C]
 - `for..of`
 
 ## Functions
 
-##### [JS-CS] [A]
+##### [JS-FUNCTIONS] [A]
 - Defining functions
 - Calling functions
 - Function scope
 - Arguments & parameters
 
-##### [JS-CS] [B]
+##### [JS-FUNCTIONS] [B]
 - `this` binding
 - Arrow functions
 
-##### [JS-CS] [C]
+##### [JS-FUNCTIONS] [C]
 - Closures
 - spread (`...`) syntax
 - Named arguments
 
-##### [JS-CS] [D]
+##### [JS-FUNCTIONS] [D]
 - Higher order functions
 - Function composition
 - Point free style
@@ -58,19 +58,19 @@
 
 ## Expressions and operators
 
-##### [JS-CS] [A]
+##### [JS-OPERATORS] [A]
 - Assignment & Comparisons (`=`, `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `>=`)
 - Arithmetic operators (`%`, `++`, `--`, `-`, `+`)
 
-##### [JS-CS] [B]
+##### [JS-OPERATORS] [B]
 - Logical operators (`&&`, `||`, `!`)
 
-##### [JS-CS] [D]
+##### [JS-OPERATORS] [D]
 - Bitwise operators (`&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`)
 
 ## Numbers and dates
 
-##### [JS-CS] [B]
+##### [JS-UTIL] [B]
 - Number literals
 - `Number` object
 - `Math` object
@@ -79,58 +79,58 @@
 ## Indexed collections
 
 ### Arrays
-##### [JS-CS] [A]
+##### [JS-COLLECTIONS] [A]
 - `push`
 - `pop`
 
-##### [JS-CS] [B]
+##### [JS-COLLECTIONS] [B]
 - `shift`
 - `unshift`
 - spread (`...`) syntax
 
-##### [JS-CS] [C]
+##### [JS-COLLECTIONS] [C]
 - `map`
 - `filter`
 - `reduce`
 - Method chaining
 
-##### [JS-CS] [E]
+##### [JS-COLLECTIONS] [E]
 - Typed arrays
 
 ## Keyed collections
 
-##### [JS-CS] [C]
+##### [JS-COLLECTIONS] [C]
 - `Map`
 - `Set`
 
-##### [JS-CS] [D]
+##### [JS-COLLECTIONS] [D]
 - `WeakMap`
 - `WeakSet`
 
 ## Working with objects
 
-##### [JS-CS] [A]
+##### [JS-OBJECTS] [A]
 - Objects and properties
 - Creating objects
 
-##### [JS-CS] [B]
+##### [JS-OBJECTS] [B]
 - Defining methods
 
-##### [JS-CS] [C]
+##### [JS-OBJECTS] [C]
 - Getter and setter
 
 ## Details of the object model
 
-##### [JS-CS] [C]
+##### [JS-OBJECTS] [C]
 - Prototype-based OOP
 
-##### [JS-CS] [D]
+##### [JS-OBJECTS] [D]
 - Creating object hierarchies
 - Inheritance (`prototype`)
 
 ## Classes
 
-##### [JS-CS] [C]
+##### [JS-CLASSES] [C]
 - `constructor`
 - `extends`
 - `super`
@@ -152,34 +152,34 @@
 
 ## JavaScript modules
 
-##### [JS-CS] [B]
+##### [JS-MODULES] [B]
 - Exporting
 - Importing
 - Default exports
 
-##### [JS-CS] [C]
+##### [JS-MODULES] [C]
 - Renaming features
 - Aggregating modules
 
-##### [JS-CS] [D]
+##### [JS-MODULES] [D]
 - Dynamic module loading
 
 
 ## Iterators and generators
 
-##### [JS-CS] [E]
+##### [JS-ITERATORS] [E]
 - Iterators
 - Iterables
 
-##### [JS-CS] [F]
+##### [JS-ITERATORS] [F]
 - Generators
 
 ## Meta programming
 
-##### [JS-CS] [E]
+##### [JS-META] [E]
 - `Proxy`
 
-##### [JS-CS] [F]
+##### [JS-META] [F]
 - Handlers and traps
 - Revocable Proxy
 - `Reflect`
