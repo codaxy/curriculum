@@ -16,4 +16,4 @@
 
 - I might start prepending private fields with underscores (like `private Session _session`) at one point, even though I've never done it before. Source: [some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac). 
 
-- Always `string`, never `String`. Even in e.g. `string.Empty`, or `string.IsNullEmpty(text)`. Source: `Name can be simplified`, VS code generator. Also, [some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac).
+- Always `string`, never `String`. Even in e.g. `string.Empty`, or `string.IsNullOrEmpty(text)`. Source: `Name can be simplified`, VS code generator. Also, [some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac).
