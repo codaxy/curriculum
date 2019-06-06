@@ -16,7 +16,7 @@
 - Basic and to some extent nested SQL queries to fetch data from database tables
 - Concepts of "Primary key", "Foreign key"
 
- [DB-QUERY-2] [C]
+##### [DB-QUERY-2] [C]
 - DML queries
 - Data aggregation
 
