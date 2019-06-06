@@ -1,15 +1,15 @@
 # SQL
 
-## Basic Database Concepts
- [DB-BASIC-2] [A]
+## Database Concepts
+ [DB-CON-2] [A]
 - What is a DBMS?
 - Differences between DBMSs etc.
 - Basic database concepts (what is a database?)
 
- [DB-BASIC-2] [B]
+ [DB-CON-2] [B]
  - How does the DB fit into the application design (application layers)
 
- ## Basic Querying 
+ ## Querying 
 
  [DB-QUERY-1] [A]
 - Basic DDL queries: create a database, drop a database, create a table, alter a table/column, ...
@@ -21,60 +21,67 @@
 - Data aggregation
 
 ## Performance Optimization 
- [DB-OPT-1] [A]
+ [DB-OPT-1] [C]
 - Detailed Execution Plan analysis
 - Optimizing data types
 
- [DB-OPT-2] [D]
+ [DB-OPT-2] [DE]
 - Data storage optimization
 
 ## SQL Joins
- [DB-JOINS-1] [A]
+ [DB-JOINS-1] [C]
 - Basic knowledge of SQL join types
 - Multiple-type joins
  
- [DB-JOINS-2] [C]
+ [DB-JOINS-2] [CD]
  - SQL joining & nullable columns
  - SQL join optimization
 
 ## Database Administration 
- [DB-ADMN-2] [A]
+ [DB-ADMN-1] [A]
 - Database backups
-- Database Logs
 
- [DB-ADMN-2] [D]
+ [DB-ADMN-2] [CD]
+ - Database Logs
  - Database storage files
+ 
+ [DB-ADMN-3] [D]
  - SQL Replication
 
 ## Database Schema Design
- [DB-SCHEMA-2] [A]
+ [DB-SCHEMA-1] [C]
 - Basis concepts (entity, relation)
 - Database schema design - best practice
 
- [DB-SCHEMA-2] [C]
+ [DB-SCHEMA-2] [CD]
 - Database normalization with special accent on the 3rd Normal Form (3NF)
 - Attribute (data) types
 
 ## Indexes 
+ [DB-INDEX-0] [A]
+- Indexing purpose
+
  [DB-INDEX-1] [C]
 - Types of SQL indexes
 - Index creation and selecting column candidates
+
+ [DB-INDEX-2] [CD]
 - Index optimization and maintenance
 - Index fragmentation
-
- [DB-INDEX-2] [D]
 - How are joins stored? (e.g. B-Tree data structures)
 
 ## Database Programming
- [DB-PROGRAMMING] [C]
+ [DB-PROG] [C]
 - SQL Stored procedures and optimization
-- SQL SP parameter sniffing
 - SQL Functions
 - SQL Views
+
+ [DB-PROG] [CD]
 - SQL Indexed Views
+- SQL SP parameter sniffing
 
 ## Database Testing
- [DB-TESTING] [D]
+ [DB-TEST] [D]
 - Black box testing, white box testing
 - Load testing
 - Writing test cases
@@ -93,17 +100,17 @@
 - Data Analysis querying: DAX, MDX
 
 ## Reporting methodologies
- [DB-REPORTING-1] [A]
+ [DB-REPORT-1] [C]
 - Reporting tools
 - Extracting data for reports
 - Data validation
 
- [DB-REPORTING-2] [D]
+ [DB-REPORT-2] [D]
 - Ad-hoc reporting
 - Deploying reports
 
 ## Data Engineering & the ETL process 
- [DB-DATAENG] [D]
+ [DB-ENG] [D]
 - Getting the data from various data sources
 - Data transformation (DML actions)
 - Data aggregation
