@@ -10,7 +10,7 @@
 ##### [NET-CS] [A]
 - Encapsulation and access modifiers
 - Properties, getters, setters
-- 
+
 ##### [NET-CS-02] [C]
 - Value types, reference types
 - Static fields, static classes
