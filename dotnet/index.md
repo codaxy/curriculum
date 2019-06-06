@@ -16,11 +16,11 @@
 - Static fields, static classes
 - Extension methods
 - Collections and other useful data types
+- Linq
 
 ##### [NET-CS-03] [CD]
 - Generics
 - Async / await
-- Linq
 - Serialization, JSON.NET
 - Named tuples, deconstruction
 - Covariance, contravariance
