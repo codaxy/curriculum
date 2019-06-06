@@ -1,7 +1,7 @@
 # SQL
 
 ## Database Concepts
-##### [DB-CON-2] [A]
+##### [DB-CON-1] [A]
 - What is a DBMS?
 - Differences between DBMSs etc.
 - Basic database concepts (what is a database?)
@@ -58,7 +58,7 @@
 - Attribute (data) types
 
 ## Indexes 
- [DB-INDEX-0] [A]
+##### [DB-INDEX-0] [A]
 - Indexing purpose
 
 ##### [DB-INDEX-1] [C]
