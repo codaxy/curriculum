@@ -69,7 +69,7 @@
 - Index optimization and maintenance
 - Index fragmentation
 - How are joins stored? (e.g. B-Tree data structures)
-- 
+ 
 ##### Useful resources
 - [A Guide to DB Performance for Developers](https://use-the-index-luke.com/sql/anatomy)
 
