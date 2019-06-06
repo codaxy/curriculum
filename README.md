@@ -8,7 +8,7 @@ This repository contains Codaxy's own technology curriculum with some helpful le
 - have a clear understanding of what they should be familiar with (in minimum) and easily communicate requirements to new team members
 - stay in sync with other teams/members regarding methodologies, conventions, style, best practices
 - easily find relevant answers to FAQs and common dilemmas
-- review and brush up their skills in their own and foreign areas
+- review and brush up on their skills in their own and foreign areas
 - make it easier to direct their research path
 
 ## What this is not
