@@ -192,4 +192,5 @@
 - [Understanding ECMAScript 6: The Definitive Guide for JavaScript Developers](https://www.amazon.com/Understanding-ECMAScript-Definitive-JavaScript-Developers/dp/1593277571)
 - [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
 - [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS)
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
