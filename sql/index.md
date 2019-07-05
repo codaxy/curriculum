@@ -20,6 +20,7 @@
 
 ##### [DB-QUERY-3] [C]
 - Nested SQL queries to fetch data from database tables
+- Windows functions (TOP/LIMIT/OFFSET)
 - Basic DDL queries: create a database, drop a database, create a table, alter a table/column, ...
 
 ##### [DB-JOINS-1] [B]
