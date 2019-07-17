@@ -8,7 +8,7 @@ We are using [CoreFX Style Guidelines](https://github.com/dotnet/corefx/blob/368
 
 - Developers should **avoid** relying on the rule of least privilege for implicit access modifiers (`private`, `public`, `protected`, `internal`) and always specify them **explicitly**. Moreover, this should always be the first keyword (i.e. `private static` instead of `static private`). Rationale: [Some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/jbogard/MediatR), VS code generator defaults.
 
-- There is almost never a reason to have two or more blank lines in a row.
+- There is almost never a reason to have two or more consecutive blank lines.
 
 - There is **never** a reason to have a blank line between two closing braces (i.e. two `}`'s or two `)`'s or two `]`'s etc.).
 
