@@ -1,6 +1,6 @@
 # .NET Coding Conventions
 
-We are using [CoreFX Style Guidelines](https://github.com/dotnet/corefx/blob/368fdfd86ee3a3bf1bca2a6c339ee590f3d6505d/Documentation/coding-guidelines/coding-style.md) as a baseline for our own C# code. In this document, we will outline differences and some important points.
+We are using [CoreFX Style Guidelines](https://github.com/dotnet/corefx/blob/368fdfd86ee3a3bf1bca2a6c339ee590f3d6505d/Documentation/coding-guidelines/coding-style.md) as a baseline for our own C# coding style. In this document, we will outline differences and some important points.
 
 - Proper indentation is **a must**. Also, code needs to be readable and tidy. Any pull request that violates either indentation rules or basic readability will be rejected without further consideration.
  
