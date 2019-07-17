@@ -18,7 +18,7 @@ We are using [CoreFX Style Guidelines](https://github.com/dotnet/corefx/blob/368
 
 - Previous point does not apply to commented code, but to proper comments only. Commented code is usually a **bad idea**, but if you have a really good reason not to delete the old code, feel free use any commenting style you want.
 
-- Contrary to CoreFX guidelines, Codaxy does *not* use underscores to prepend private fields (e.g. `private readonly ISession _session`), or `s_`, `t_`, and similar prefixes for static fields, thread-static fields, etc. However, due to the popularity of this style ([some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac)), it is not discouraged for new projects. If you do decide to use it, make sure you're consistent throughout the **entire project** and avoid using `this.` unless absolutely necessary, as the guideline says.
+- Contrary to CoreFX guidelines, Codaxy does *not* use underscores to prepend private fields (e.g. `private readonly ISession _session`), or `s_`, `t_`, and similar prefixes for static fields, thread-static fields, etc. However, due to the popularity of this style ([some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac)), we do not forbid its use for new projects. If you do decide to use it, make sure you're consistent throughout the **entire project** and avoid using `this.` unless absolutely necessary, as the guideline says.
 
 - We use `var` much more freely than CoreFX team recommends, but following that recommendation is encouraged.
 
