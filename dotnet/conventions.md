@@ -20,4 +20,8 @@ We are using [CoreFX Style Guidelines](https://github.com/dotnet/corefx/blob/368
 
 - Contrary to CoreFX guidelines, Codaxy does *not* use underscores to prepend private fields (e.g. `private readonly ISession _session`), or `s_`, `t_`, and similar prefixes for static fields, thread-static fields, etc. However, due to the popularity of this style ([some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac)), it is not discouraged for new projects. If you do decide to use it, make sure you're consistent throughout the **entire project** and avoid using `this.` unless absolutely necessary, as the guideline says.
 
+- We use `var` much more freely than the CoreFX team recommends, but following that recommendation is encouraged.
+
+- We don't usually tidy up our imports (remove unused and sort alphabetically) and don't really care about it at the moment. Just make sure they're on the top of the file, outside the namespace.
+
 - Always `string`, never `String`. Even in e.g. `string.Empty`, or `string.IsNullOrEmpty(text)`. Rationale: `Name can be simplified`, VS code generator defaults. Also, [some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac).
