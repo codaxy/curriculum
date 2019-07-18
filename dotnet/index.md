@@ -19,7 +19,7 @@
 - Collections and other useful data types
 - Linq
 
-##### [NET-CS-03] [CD]
+##### [NET-CS-03] [D]
 - Generics
 - Async / await
 - Serialization, JSON.NET
@@ -27,7 +27,6 @@
 - Covariance, contravariance
 
 #### Useful resources
-
 - [C# 7.0 in a Nutshell](https://www.amazon.com/C-7-0-Nutshell-Definitive-Reference/dp/1491987650)
 - https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8
 
@@ -35,12 +34,11 @@
 ## Best practices
 ##### [NET-BEST] [D]
 - SOLID
-- [Concise code (Skeet C#)*](https://freecontent.manning.com/c-in-depth-4th-edition-concise-code-with-local-methods/)
+- [Concise code (Skeet C#)](https://freecontent.manning.com/c-in-depth-4th-edition-concise-code-with-local-methods/)
 - DateTime / DateTimeOffset pitfalls
-- ...
 
 ## ASP.NET Core
-##### [NET-ASP] [CD]
+##### [NET-ASP] [DE]
 - Core concepts
 - Application lifecycle, pipeline/middleware concept, Startup.cs
 - Cookies: basics, authorization, localization
@@ -62,7 +60,6 @@
 - Razor
 
 ##### [NET-MVC-02] [D]
-- HTTP verb (GET, POST, DELETE) mapping
 - Layouts
 - Razor pages, ViewModels, DI into pages
 
@@ -90,7 +87,7 @@
 - DI approach
 - Configurable loggers (appsettings)
 - Structured logging
-- External targets (e.g. Seq)*
+- External targets (e.g. Seq)
 
 ## Entity Framework
 ##### [NET-EF] [DE]
@@ -105,8 +102,6 @@
 - Tokens
 - Refresh token pattern and antipattern
 - Secured controller actions
-- Security policies
-- Security within services*
 
 ## Testing
 ##### [NET-TEST] [E]
@@ -123,9 +118,13 @@
 - Object lifetime
 - Caching (Redis, memcached)
 
+#### Useful resources
+- [eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers)--many useful concepts illustrated in this reference implementation
+- [NorthwindTraders](https://github.com/JasonGT/NorthwindTraders)--slightly less overwhelming, yet very good reference implementation of a relatively complex architecture
+
 ## Localization
 ##### [NET-LOC] [DE]
-- Resource localization (resx)
+- Resource localization (`.resx`)
 - Culture cookies, request params, HTTP headers
 - Culture-dependent formatting (UICulture)
 - ASP.NET Core MVC
