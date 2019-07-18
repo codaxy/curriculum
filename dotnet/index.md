@@ -8,10 +8,11 @@
 ## C# 
 
 ##### [NET-CS] [A]
-- Encapsulation and access modifiers
-- Properties, getters, setters
+- [Encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)) and [access modifiers](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)
+- [Properties, getters, setters](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties), 
 
 ##### [NET-CS-02] [C]
+- [Read-only auto-properties](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6#read-only-auto-properties)
 - Value types, reference types
 - Static fields, static classes
 - Extension methods
@@ -49,7 +50,7 @@
 ## ASP.NET Core Web API
 ##### [NET-API] [C]
 - Models, controllers
-- HTTP verb (GET, POST, PUT, DELETE) mapping
+- [HTTP verb mapping](https://restfulapi.net/http-methods/)
 
 ##### [NET-API-02] [D]
 - Proper routing conventions
