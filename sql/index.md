@@ -21,6 +21,7 @@
 ##### [DB-QUERY-3] [C]
 - Nested SQL queries to fetch data from database tables
 - Windows functions (TOP/LIMIT/OFFSET)
+- Common Table Expressions (WITH)
 - Basic DDL queries: create a database, drop a database, create a table, alter a table/column, ...
 
 ##### [DB-JOINS-1] [B]
@@ -42,6 +43,7 @@
 ##### [DB-INDEX-3] [D]
 - Index optimization and maintenance
 - Index fragmentation
+- Full Text Index
 
 
 ## Performance Optimization 
