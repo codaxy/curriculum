@@ -3,7 +3,7 @@
 
 ## .NET Conventions
 ##### [NET-CONV] [A]
-- [Read the accompanying document](conventions.md)
+- [Codaxy C# Coding Conventions](conventions.md)
 
 ## C# 
 
