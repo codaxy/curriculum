@@ -35,7 +35,7 @@
 ##### [NET-BEST] [D]
 - SOLID
 - [Concise code (Skeet C#)](https://freecontent.manning.com/c-in-depth-4th-edition-concise-code-with-local-methods/)
-- DateTime / DateTimeOffset pitfalls
+- DateTime / DateTimeOffset [pitfalls](https://github.com/dotnet/corefx/issues/626)
 
 ## ASP.NET Core
 ##### [NET-ASP] [DE]
