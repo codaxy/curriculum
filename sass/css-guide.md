@@ -372,7 +372,7 @@ Since it would take too long to explain all these properties, here are some lear
 Property `transition` is a shorthand for:
 -  `transition-property` (***all***, *color*, *box-shadow*, *background-color*, ...)
 - `transition-duration` (*200ms*, *0.2s*, ...)
--  `transition-timing-function` (*linear*, *ease-in*, *steps(4, end)*,  *cubic-bezier(0.4, 0.0, 1, 1)*, ...)
+-  `transition-timing-function` (***ease***, *linear*, *steps(4, end)*,  *cubic-bezier(0.4, 0.0, 1, 1)*, ...)
 - `transition-delay` (*200ms*, *0.2s*, ...)
 
 
@@ -392,7 +392,7 @@ For example, in material design, when you press a button (`:active` state), it s
             transition-porperty: all; (in this case, background-color and box-shadow)
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
-            transition-delay: 0; (not necessary to se it to 0)
+            transition-delay: 0; (it's not necessary to set it to 0)
         */
         ...
     };
@@ -405,7 +405,7 @@ For example, in material design, when you press a button (`:active` state), it s
             transition-porperty: all; (in this case, background-color and box-shadow)
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
-            transition-delay: 0; (not necessary to se it to 0)
+            transition-delay: 0; (it's not necessary to set it to 0)
         */
         ...
     };
@@ -430,7 +430,7 @@ For example, in material design, when you press a button (`:active` state), it s
 - 📃 [Creative Link Effects Magic | Tympanus](https://tympanus.net/Development/CreativeLinkEffects/)
 - 📃 [Sidebar Transitions | Tympanus](https://tympanus.net/Development/SidebarTransitions/)
 
-## [Animations] [D]
+## [Animation] [D]
 Unlike the effects set by `transition` property, `animation` effects don't need a trigger (hover, active,...) to run. They can happen automatically (on page load, for example).
 
 Also, with `animation` you can set countless states between a start and an end state, or even loop animation. `transition` lets you style the appearance of an element only at the beginning of animation and at its end.
@@ -438,4 +438,15 @@ Also, with `animation` you can set countless states between a start and an end s
 So, if you need an animation to run when the page loads, or you have an animation more complex than a simple A to B state change, it is recommended to use the `animation` property.
 
 [MDN] defines animations as *shorthand CSS property that applies an animation between styles*. It is a shorthand for:
-- `animation-name`
+- **`animation-name`**
+- **`animation-duration`**
+- **`animation-timing-function`**
+- **`animation-delay`**
+- `animation-iteration-count`
+- `animation-direction`
+- `animation-fill-mode`
+-  `animation-play-state`
+
+It is important to understand that you don't configure the actual animation effect with `animation` property. It is done with `@keyframes`. Once you define effects with `@keyframes`, you can use them through `animation-name`.
+
+### @keyframes
