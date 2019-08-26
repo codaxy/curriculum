@@ -449,4 +449,40 @@ So, if you need an animation to run when the page loads, or you have an animatio
 
 It is important to understand that you don't configure the actual animation effect with `animation` property. It is done with `@keyframes`. Once you define effects with `@keyframes`, you can use them through `animation-name`.
 
-### @keyframes
+```CSS
+    .animated_container {
+        background-color: red;
+        animation: changeWidth 3s ease-in 0s infinite;
+        height: 100px;
+        ...
+        /*
+            animation-name: changeWidth;
+            animation-duration: 3s;
+            animation-timing-function: ease-in;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+        */
+    };
+
+    @keyframes changeWidth {
+        0% {
+            width: 50px;
+        }
+        100% {
+            width: 150px;
+        }
+
+        /* if there are only two frames - 0% and 100%, you can also write it like this
+
+            from {
+                width: 50px;    
+            }
+            to {
+                width: 150px;    
+            }
+
+        */
+    };
+```
+
+<img src='./images/animation.gif' />
