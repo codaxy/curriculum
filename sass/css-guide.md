@@ -164,8 +164,8 @@ Some CSS properties are inherited from containers. For example, child element wi
 <br />
 
 📚 **Useful resources:**
-- 📃 [List of Inherited CSS Properties](https://gist.github.com/dcneiner/1137601)
-- 📃 [CSS Inheritance: An Introduction](https://www.sitepoint.com/css-inheritance-introduction/)
+- 📃 [List of Inherited CSS Properties | Git Repo](https://gist.github.com/dcneiner/1137601)
+- 📃 [CSS Inheritance: An Introduction | Sitepoint](https://www.sitepoint.com/css-inheritance-introduction/)
 
 ## [Values] [A-F]
 - Textual
