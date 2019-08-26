@@ -298,24 +298,23 @@ Once you've understood how box model and `box-sizing` works, you're at least abl
 
 When it comes to CSS, the most common cause of problems is the **layout**. Element positioning, vertical or horizontal alignment, overflow, z-index can be hard to grasp for CSS beginners.
 
-### Display
-- #### [inline] [A]
-- #### [inline-block] [A]
-- #### [block] [A]
-- #### [flexbox] [C]
-- #### [grid] [D]
-- #### [table] [D]
-
-### Position
-- #### [static] [B]
-- #### [relative] [A]
-- #### [absolute] [A]
-- #### [fixed] [A]
-- #### [sticky] [D]
-#### [z-index] [C]
-#### [float] [D]
-#### [vertical-align] [A]
-#### [text-align] [A]
+- Position
+    - #### [static] [B]
+    - #### [relative] [A]
+    - #### [absolute] [A]
+    - #### [fixed] [A]
+    - #### [sticky] [D]
+- Display
+    - #### [inline] [A]
+    - #### [inline-block] [A]
+    - #### [block] [A]
+    - #### [flexbox] [C]
+    - #### [grid] [D]
+    - #### [table] [D]
+- [z-index] [C]
+- [float] [D]
+- [vertical-align] [A]
+- [text-align] [A]
 
 <br />
 
@@ -376,7 +375,9 @@ For example, in material design, when you press a button (:active state), it see
         ...
     };
 ```
-<img src='./images/button-pressed-transition.gif' />
+<div style='text-align: center;'>
+    <img src='./images/button-pressed-transition.gif' />
+</div>
 
 
 ## Conventions
