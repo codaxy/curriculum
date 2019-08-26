@@ -487,6 +487,8 @@ It is important to understand that you don't configure the actual animation effe
     }
 ```
 
+<img src='./images/animation.gif' />
+
 <br />
 
 📚 **Useful resources:**
@@ -498,6 +500,3 @@ It is important to understand that you don't configure the actual animation effe
 - 📃 [Material Design Motion | Google Material Design](https://material.io/design/motion/speed.html#easing)
 - 📐 **[Best CSS Animation Library | Animista](http://animista.net/)**
 
-
-
-<img src='./images/animation.gif' />
