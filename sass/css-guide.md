@@ -468,21 +468,23 @@ It is important to understand that you don't configure the actual animation effe
         0% {
             width: 50px;
         }
+        50% {
+            width: 100px;
+        }
         100% {
             width: 150px;
         }
-
-        /* if there are only two frames - 0% and 100%, you can also write it like this
-
-            from {
-                width: 50px;    
-            }
-            to {
-                width: 150px;    
-            }
-
-        */
     };
+
+    /* if there are only two frames - 0% and 100%, you can also write it like this */
+    @keyframes changeWidth {
+        from {
+            width: 50px;    
+        }
+        to {
+            width: 150px;    
+        }
+    }
 ```
 
 <img src='./images/animation.gif' />
