@@ -354,8 +354,10 @@ Since it would take too long to explain all these properties, here are some lear
 - Z-index
     - 📃 [The Z-Index CSS Property: A Comprehensive Look | Smashing Magazine](https://www.smashingmagazine.com/2009/09/the-z-index-css-property-a-comprehensive-look/) 
     
-## [Transition and Animation] [D]
-Both of these properties add animation effect to an element. The main difference is that `transition` animations work only when an element changes its state (hover, focus, pressed,...). 
+## [Transition] [D]
+You can use both `transition` and `animation` property to add animation effect to an element. The main difference between the two is that `transition` animations work only when an element changes its state (:hover, :focus, :active,...), and they only visualize property change from start to finish.
+
+Property `transition` is one of the shorthand CSS properties, and it consists of `transition-property`, `transition-duration`, `transition-timing-function`, and `transition-delay`. 
 
 For example, in material design, when you press a button (:active state), it seems like you're lifting it gradually. This effect is achieved by the `transition` property, which slowly changes button background-color and box-shadow. 
 
@@ -364,20 +366,33 @@ For example, in material design, when you press a button (:active state), it see
         background-color: #f6f6f6;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
 
-        transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out 0;
+
+        /*
+            transition-porperty: all;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-out;
+            transition-delay: 0; (not necessary to se it to 0)
+        */
         ...
     };
     .cxb-button:active {
         background-color: #eeeeee;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
-        transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out 0;
+         /*
+            transition-porperty: all;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-out;
+            transition-delay: 0; (not necessary to se it to 0)
+        */
         ...
     };
 ```
-<div style='text-align: center;'>
-    <img src='./images/button-pressed-transition.gif' />
-</div>
+<img src='./images/button-pressed-transition.gif' />
+<br />
+
 
 
 ## Conventions
