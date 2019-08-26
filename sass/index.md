@@ -368,7 +368,11 @@ Since it would take too long to explain all these properties, here are some lear
 ## [Transition] [D]
 You can use both `transition` and `animation` property to add animation effect to an element. The main difference between the two is that `transition` animations work only when an element changes its state (:hover, :focus, :active,...), and they only visualize property change from start to finish.
 
-Property `transition` is one of the shorthand CSS properties, and it consists of `transition-property`, `transition-duration`, `transition-timing-function`, and `transition-delay`. 
+Property `transition` is one of the shorthand CSS properties, and it consists of
+-  `transition-property` (*color*, *box-shadow*, *background-color*, *all*, ...)
+- `transition-duration` (*200ms*, *0.2s*, ...)
+-  `transition-timing-function` (*linear*, *ease-in*, *steps(4, end)*,  *cubic-bezier(0.4, 0.0, 1, 1)*, ...)
+- `transition-delay` (*200ms*, *0.2s*, ...)
 
 For example, in material design, when you press a button (:active state), it seems like you're lifting it gradually. This effect is achieved by the `transition` property, which slowly changes button background-color and box-shadow. 
 
@@ -401,7 +405,21 @@ For example, in material design, when you press a button (:active state), it see
     };
 ```
 <img src='./images/button-pressed-transition.gif' />
+
 <br />
+
+> 
+> ⚠️ **Note**
+>
+> You can't use transition on all CSS properties. See the list of [animatable CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties).
+
+<br />
+
+📚 **Useful resources:**
+- 📃 **[Using CSS Transitions | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)**
+- 📃 [Animatable CSS properties | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+- 📃 [transition-timing-function | CSS Tricks](https://css-tricks.com/almanac/properties/t/transition-timing-function/)
+- 📃 [transition-timing-function | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
 
 ## Conventions
 #### [STYLING-CONV] [A]
