@@ -90,7 +90,7 @@ This type of selectors enables applying the same rule to multiple selected eleme
     }
 ```
 
-<br /
+<br />
 
 📚 **Useful resources:**
 - 📃 [Type of Selectors | CSS Working Group](https://drafts.csswg.org/selectors-3/)
@@ -149,7 +149,7 @@ As we can see from the table, calculated specificity is the highest for `#mainTi
 >
 > - [`!important`](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#The_!important_exception) - adding this after CSS value wins over everything, even an inline style.
 
-<br /
+<br />
 
 📚 **Useful resources:**
 - 📃 [**CSS Specificity Wars | Stuff and Nonsense**](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) MUST SEE
@@ -161,7 +161,7 @@ As we can see from the table, calculated specificity is the highest for `#mainTi
 ## [Inheritance] [B]
 Some CSS properties are inherited from containers. For example, child element will have the same `color` and `font` as its container, if not specified otherwise.
 
-<br /
+<br />
 
 📚 **Useful resources:**
 - 📃 [List of Inherited CSS Properties](https://gist.github.com/dcneiner/1137601)
@@ -190,7 +190,7 @@ Some CSS properties are inherited from containers. For example, child element wi
 - Position [C]
 - Functional notation [D] (`calc()`, `min()`, `max()`,...)
 
-<br /
+<br />
 
 📚 **Useful resources:**
 - 📃 [CSS Values and Units | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units)
@@ -234,8 +234,6 @@ border-width: 1px 2px 3px 4px; (read clockwise)  | <img src='https://mdn.mozilla
 > It's [not recommended](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties#Tricky_edge_cases) to use shorthands for more complicated properties, such as `background`. Use `background-color`, `background-image`, `background-size`... instead.
 
 <br />
-
-<br /
 
 📚 **Useful resources:**
 - 📃 [Shorthand Properties | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
@@ -282,9 +280,8 @@ Box sizing behaviour is explained in these images.
 > 
 > `padding-box` is not used anymore.
 >
-<br />
 
-<br /
+<br />
 
 📚 **Useful resources:**
 - Box Model and Sizing
@@ -341,7 +338,6 @@ When it comes to CSS, the most common cause of problems is the **layout**. Eleme
 Since it would take too long to explain all these properties, here are some learning resources.
 
 <br />
-
 
 📚 **Useful resources:**
 - 📃 **[CSS Layout | Learn Layout](https://learnlayout.com/no-layout.html)**
