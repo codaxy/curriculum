@@ -26,7 +26,7 @@ There are 3 ways of inserting CSS.
 
 ## Syntax [A]
 A CSS rule-set consists of a selector and a declaration block.
-<img src='https://i.ibb.co/3hTYNrp/csssyntax.png' />
+<img src='./images/csssyntax.png' />
 
 ## Selectors
 A CSS selector is the part of a CSS rule set that shows which element (class, id,...) will be styled by the applied `property:value` declarations.
@@ -244,7 +244,7 @@ The second step would probably be to modify `width`, `height`, `margin`, `paddin
 
 The [`CSS box model`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model) is the foundation of layout on the Web — each element is represented as a rectangular box, with the box's `content`, `padding`, `border`, and `margin` built up around one another like the layers of an onion.
 
-<img src='https://i.ibb.co/zPZ1hzZ/box-model.png' />
+<img src='./images/box-model.png' />
 
 The layers are easy to understand, but what's usually causing confusion is `box-sizing` property.
 
@@ -258,8 +258,8 @@ If we set `box-sizing: border-box`, the actual width will be the expected `200px
 
 Box sizing behaviour is explained in these images.
 
-<img src='https://i.ibb.co/0mB4Vd7/box-sizing-content.png' />
-<img src='https://i.ibb.co/x71380h/box-sizing-border-PNG.png' />
+<img src='./images/box-sizing-content.png' />
+<img src='./images/box-sizing-border.png' />
 
 >
 >⚠️ **Note** 
@@ -347,10 +347,29 @@ Since it would take too long to explain all these properties, here are some lear
 - Z-index
     - 📃 [The Z-Index CSS Property: A Comprehensive Look | Smashing Magazine](https://www.smashingmagazine.com/2009/09/the-z-index-css-property-a-comprehensive-look/) 
     
-### [Transition and Animation] [D]
-Both of these properties add animation effect to an element. The main difference is that `transition` animations work only when an element changes its state. 
+## [Transition and Animation] [D]
+Both of these properties add animation effect to an element. The main difference is that `transition` animations work only when an element changes its state (hover, focus, pressed,...). 
 
-For example, in material design, when you hover over a button, it seems like you're lifting it gradually. This effect is achieved by the `transition` property which changes button background-color and box-shadow on hover. 
+For example, in material design, when you press a button (:active state), it seems like you're lifting it gradually. This effect is achieved by the `transition` property, which slowly changes button background-color and box-shadow. 
+
+```CSS
+    .cxb-button {
+        background-color: #f6f6f6;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+
+        transition: all 0.2s ease-out;
+        ...
+    };
+    .cxb-button:active {
+        background-color: #eeeeee;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+        transition: all 0.2s ease-out;
+        ...
+    };
+```
+<img src='./images/button-pressed-transition.gif' />
+
 
 ## Conventions
 #### [STYLING-CONV] [A]
