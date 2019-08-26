@@ -453,7 +453,7 @@ It is important to understand that you don't configure the actual animation effe
     .animated_container {
         height: 100px;
         background-color: red;
-        animation: changeWidth 3s ease-in 0s infinite;
+        animation: changeWidthSteps 3s ease-in 0s infinite;
         ...
         /*
             animation-name: changeWidth;
@@ -464,7 +464,7 @@ It is important to understand that you don't configure the actual animation effe
         */
     };
 
-    @keyframes changeWidth {
+    @keyframes changeWidthSteps {
         0% {
             width: 50px;
         }
