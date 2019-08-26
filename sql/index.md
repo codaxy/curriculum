@@ -23,6 +23,9 @@
 - Windows functions (TOP/LIMIT/OFFSET)
 - Basic DDL queries: create a database, drop a database, create a table, alter a table/column, ...
 
+##### [DB-QUERY-4] [D]
+- Common Table Expressions (WITH)
+
 ##### [DB-JOINS-1] [B]
 - Basic knowledge of SQL join types
  
@@ -43,6 +46,8 @@
 - Index optimization and maintenance
 - Index fragmentation
 
+##### [DB-INDEX-4] [E]
+- Full Text Index
 
 ## Performance Optimization 
 ##### [DB-OPT-1] [D]
