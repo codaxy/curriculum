@@ -369,7 +369,7 @@ Since it would take too long to explain all these properties, here are some lear
     
 ## [Transition] [D]
 
-Property `transition` is one of the shorthand CSS properties, and it consists of:
+Property `transition` is a shorthand for:
 -  `transition-property` (***all***, *color*, *box-shadow*, *background-color*, ...)
 - `transition-duration` (*200ms*, *0.2s*, ...)
 -  `transition-timing-function` (*linear*, *ease-in*, *steps(4, end)*,  *cubic-bezier(0.4, 0.0, 1, 1)*, ...)
@@ -378,7 +378,7 @@ Property `transition` is one of the shorthand CSS properties, and it consists of
 
 You can use both `transition` and `animation` property to add animation effect to an element.
 
-The main difference between the two is that `transition` effect works only when an element changes its state (*:hover*, *:focus*, *:active*, ...), or when it's added to the page. Also, `transition` only visualizes property change from start to finish.
+The main difference between the two is that `transition` effect works only when an element changes its state (*:hover*, *:focus*, *:active*, ...), or when it's added to the page, or when it 'gets' or 'loses' a class. Also, `transition` only visualizes property change from a beginning state to an ending state.
 
 For example, in material design, when you press a button (`:active` state), it seems like you're lifting it gradually. This effect is achieved by the `transition` property, which slowly changes button background-color and box-shadow. 
 
@@ -389,7 +389,7 @@ For example, in material design, when you press a button (`:active` state), it s
 
         transition: all 0.2s ease-out 0;
         /*
-            transition-porperty: all;
+            transition-porperty: all; (in this case, background-color and box-shadow)
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
             transition-delay: 0; (not necessary to se it to 0)
@@ -402,7 +402,7 @@ For example, in material design, when you press a button (`:active` state), it s
 
         transition: all 0.2s ease-out 0;
         /*
-            transition-porperty: all;
+            transition-porperty: all; (in this case, background-color and box-shadow)
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
             transition-delay: 0; (not necessary to se it to 0)
@@ -435,9 +435,7 @@ Unlike the effects set by `transition` property, `animation` effects don't need 
 
 Also, with `animation` you can set countless states between a start and an end state, or even loop animation. `transition` lets you style the appearance of an element only at the beginning of animation and at its end.
 
-So, if you need an animation to run when the page loads, or you have an animation more complex than a simple A to B state change, it is recommended to use `animation` property.
+So, if you need an animation to run when the page loads, or you have an animation more complex than a simple A to B state change, it is recommended to use the `animation` property.
 
-## Conventions
-#### [STYLING-CONV] [A]
-
-- [Codaxy CSS Conventions](css-conventions.md)
+[MDN] defines animations as *shorthand CSS property that applies an animation between styles*. It is a shorthand for:
+- `animation-name`
