@@ -499,4 +499,5 @@ It is important to understand that you don't configure the actual animation effe
 - 📃 [Advanced CSS Animation Property - animation-play-state | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
 - 📃 [Material Design Motion | Google Material Design](https://material.io/design/motion/speed.html#easing)
 - 📐 **[Best CSS Animation Library | Animista](http://animista.net/)**
+- 📃 [Advanced Page Transition Examples | Tympanus](https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/)
 
