@@ -342,6 +342,7 @@ Since it would take too long to explain all these properties, here are some lear
 
 <br />
 
+
 📚 **Useful resources:**
 - 📃 **[CSS Layout | Learn Layout](https://learnlayout.com/no-layout.html)**
 - Position
@@ -405,8 +406,6 @@ For example, in material design, when you press a button (:active state), it see
 ```
 <img src='./images/button-pressed-transition.gif' />
 <br />
-
-
 
 ## Conventions
 #### [STYLING-CONV] [A]
