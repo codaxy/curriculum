@@ -219,12 +219,18 @@ border-width: 1px 2px 3px 4px; (read clockwise)  | <img src='https://mdn.mozilla
 
 *Images taken from [MDN]('https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties')*
 
+<br />
+
 >⚠️ **Warning** 
 >
 > It's [not recommended](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties#Tricky_edge_cases) to use shorthands for more complicated properties, such as `background`. Use `background-color`, `background-image`, `background-size`... instead.
 
+<br />
+
 📚 **Useful resources:**
 - 📃 [Shorthand Properties | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
+
+<br />
 
 ## Properties
 
@@ -266,6 +272,7 @@ Box sizing behaviour is explained in these images.
 > 
 > `padding-box` is not used anymore.
 >
+<br />
 
 📚 **Useful resources:**
 - Box Model and Sizing
@@ -310,6 +317,7 @@ When it comes to CSS, the most common cause of problems is the **layout**. Eleme
 #### [vertical-align] [A]
 #### [text-align] [A]
 
+<br />
 
 >
 >⚠️ **Warning** 
