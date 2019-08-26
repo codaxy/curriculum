@@ -456,7 +456,7 @@ It is important to understand that you don't configure the actual animation effe
         animation: changeWidthSteps 3s ease-in 0s infinite;
         ...
         /*
-            animation-name: changeWidth;
+            animation-name: changeWidthSteps;
             animation-duration: 3s;
             animation-timing-function: ease-in;
             animation-delay: 0s;
