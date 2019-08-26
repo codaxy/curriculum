@@ -1,4 +1,4 @@
-# Styling, SASS and CSS
+# CSS and SCSS Guide
 
 ## Inserting CSS [A]
 There are 3 ways of inserting CSS.
