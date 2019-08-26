@@ -451,9 +451,9 @@ It is important to understand that you don't configure the actual animation effe
 
 ```CSS
     .animated_container {
+        height: 100px;
         background-color: red;
         animation: changeWidth 3s ease-in 0s infinite;
-        height: 100px;
         ...
         /*
             animation-name: changeWidth;
@@ -486,5 +486,18 @@ It is important to understand that you don't configure the actual animation effe
         }
     }
 ```
+
+<br />
+
+📚 **Useful resources:**
+- 📃 [Transitions VS Animations | CSS Animation Rocks](https://cssanimation.rocks/transition-vs-animation/)
+- 📃 **[CSS Animation For Beginners | Thought Bot](https://thoughtbot.com/blog/css-animation-for-beginners)**
+- 📃 [Advanced CSS Animation Property - animation-direction | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction)
+- 📃 [Advanced CSS Animation Property - animation-fill-mode | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
+- 📃 [Advanced CSS Animation Property - animation-play-state | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
+- 📃 [Material Design Motion | Google Material Design](https://material.io/design/motion/speed.html#easing)
+- 📐 **[Best CSS Animation Library | Animista](http://animista.net/)**
+
+
 
 <img src='./images/animation.gif' />
