@@ -427,7 +427,7 @@ For example, in material design, when you press a button (`:active` state), it s
 - 📃 [transition-timing-function | CSS Tricks](https://css-tricks.com/almanac/properties/t/transition-timing-function/)
 - 📃 [transition-timing-function | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
 - 📃 [Advanced Transitions | Magic of CSS](https://adamschwartz.co/magic-of-css/chapters/6-transitions/)
-- 📃 [Creative Link Effects Magic | Tympanus](https://tympanus.net/Development/CreativeLinkEffects/)
+- 📃 [Creative Link Effects | Tympanus](https://tympanus.net/Development/CreativeLinkEffects/)
 - 📃 [Sidebar Transitions | Tympanus](https://tympanus.net/Development/SidebarTransitions/)
 
 ## [Animation] [D]
@@ -438,14 +438,14 @@ Also, with `animation` you can set countless states between a start and an end s
 So, if you need an animation to run when the page loads, or you have an animation more complex than a simple A to B state change, it is recommended to use the `animation` property.
 
 [MDN] defines animations as *shorthand CSS property that applies an animation between styles*. It is a shorthand for:
-- **`animation-name`**
-- **`animation-duration`**
-- **`animation-timing-function`**
-- **`animation-delay`**
-- `animation-iteration-count`
-- `animation-direction`
-- `animation-fill-mode`
--  `animation-play-state`
+- **animation-name**
+- **animation-duration**
+- **animation-timing-function**
+- **animation-delay**
+- animation-iteration-count
+- animation-direction
+- animation-fill-mode
+-  animation-play-state
 
 It is important to understand that you don't configure the actual animation effect with `animation` property. It is done with `@keyframes`. Once you define effects with `@keyframes`, you can use them through `animation-name`.
 
