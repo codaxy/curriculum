@@ -387,12 +387,12 @@ For example, in material design, when you press a button (`:active` state), it s
         background-color: #f6f6f6;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
 
-        transition: all 0.2s ease-out 0;
+        transition: all 0.2s ease-out 0s;
         /*
             transition-porperty: all; (in this case, background-color and box-shadow)
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
-            transition-delay: 0; (it's not necessary to set it to 0)
+            transition-delay: 0s; (it's not necessary to set it to 0)
         */
         ...
     };
@@ -400,12 +400,12 @@ For example, in material design, when you press a button (`:active` state), it s
         background-color: #eeeeee;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
-        transition: all 0.2s ease-out 0;
+        transition: all 0.2s ease-out 0s;
         /*
             transition-porperty: all; (in this case, background-color and box-shadow)
             transition-duration: 0.2s;
             transition-timing-function: ease-out;
-            transition-delay: 0; (it's not necessary to set it to 0)
+            transition-delay: 0s; (it's not necessary to set it to 0)
         */
         ...
     };
