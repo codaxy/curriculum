@@ -440,7 +440,7 @@ Also, with `animation` you can set countless states between a start and an end s
 
 If you need an animation to run when the page loads, or you have an animation more complex than a simple A to B state change, it is recommended to use the `animation` property.
 
-[MDN] defines animations as *shorthand CSS property that applies an animation between styles*. It is a shorthand for:
+[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) defines animations as *shorthand CSS property that applies an animation between styles*. It is a shorthand for:
 - **animation-name**
 - **animation-duration**
 - **animation-timing-function**
@@ -450,7 +450,7 @@ If you need an animation to run when the page loads, or you have an animation mo
 - animation-fill-mode
 -  animation-play-state
 
-It is important to understand that you don't configure the actual animation effect with `animation` property. It is done with `@keyframes`. Once you define effects with `@keyframes`, you can use them through `animation-name`.
+It is important to understand that you don't configure the actual animation effect with `animation` property. It is done with `@keyframes`. Once you define effects with `@keyframes`, you can assign them to a specific CSS element through `animation-name`.
 
 ```CSS
     .animated_container {
@@ -505,11 +505,11 @@ It is important to understand that you don't configure the actual animation effe
 - 📃 [Advanced Page Transition Examples | Tympanus](https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/)
 
 
-## Responsive Design
+## Responsive Design [D]
 
-- @media queries
-- **flexbox**
-- **css grid**
+- @media queries [B]
+- **flexbox** [C]
+- **css grid** [D]
 
 When you hear `responsive design`, the first thing that comes to mind is probably `@media query`. However, since `flexbox` and `css grid` were introduced in 2015 and 2016-2017 (respectively), developers have more flexibility in implementing responsive designs.
 
@@ -541,6 +541,7 @@ It is recommended to combine these two properties with media queries when creati
 
 2. Using only `flexbox` or `css grid` isn't always enough. Sometimes, you want the layout to behave in a specific way for mobile devices, but it can be difficult to achieve only with these two properties.
 This is where `@media queries` become useful.
+
 Take a look at this simplified example which [combines css grid with @media queries](https://thoughtbot.com/blog/concise-media-queries-with-css-grid) to quickly create flexible responsive layout.
 
 
