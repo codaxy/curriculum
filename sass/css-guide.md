@@ -541,7 +541,6 @@ It is recommended to combine these two properties with media queries when creati
 
 2. Using only `flexbox` or `css grid` isn't always enough. Sometimes, you want the layout to behave in a specific way for mobile devices, but it can be difficult to achieve only with these two properties.
 This is where `@media queries` become useful.
-
 Take a look at this simplified example which [combines css grid with @media queries](https://thoughtbot.com/blog/concise-media-queries-with-css-grid) to quickly create flexible responsive layout.
 
 
