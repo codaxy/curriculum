@@ -17,10 +17,19 @@ There are 3 ways of inserting CSS.
         </style>
     </head>
 ```
-#### [External] [A]
+#### [External] [A] (recommended)
 ```html
     <head>
         <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+```
+
+#### [External using @import]
+```html
+    <head>
+        <style>
+            @import url("/styles/default.css");
+        </style>
     </head>
 ```
 
@@ -589,7 +598,7 @@ Take a look at this simplified example which [combines css grid with @media quer
 
 ## Shapes [F]
 
-## General CSS Tutorials
+## General CSS Guides and Tutorials
 - 📃 [Learn CSS - Basic CSS and Applied Visual Design Sections | FreeCodeCamp](https://learn.freecodecamp.org/)
 - 📃 [Introduction CSS | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
 - 📃 [CSS Quick Guide | Tutorials Point](https://www.tutorialspoint.com/css/css_quick_guide.htm)
