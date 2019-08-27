@@ -117,7 +117,7 @@ and this CSS
         color: green;
     };
 ```
-### ❓ Will **`h1`** be `blue`, `red` or `green`?
+### ❓ Will *`h1`* be `blue`, `red` or `green`?
 
 Before answering this, you have to understand how to calculate `CSS specificity`.
 The amount of specificity is measured by four numbers, let's call them `thousands`, `hundreds`, `tens`,and `ones`.
@@ -335,6 +335,7 @@ When it comes to CSS, the most common cause of problems is the **layout**. Eleme
 >*The float CSS property places an element on the left or right side of its container, allowing **text and inline elements** to wrap around it.* - MDN
 >
 
+// TODO
 Since it would take too long to explain all these properties, here are some learning resources.
 
 <br />
@@ -503,3 +504,51 @@ It is important to understand that you don't configure the actual animation effe
 - 📐 **[Best CSS Animation Library | Animista](http://animista.net/)**
 - 📃 [Advanced Page Transition Examples | Tympanus](https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/)
 
+
+## Responsive Design
+
+- @media queries
+- **flexbox**
+- **css grid**
+
+When you hear `responsive design`, the first thing that comes to your mind is probably `@media query`. However, since `flexbox` and `css grid` were introduced in 2015 and 2016-2017 (respectively), developers have more flexibility in implementing responsive designs.
+
+Although it is now possible to create responsive layouts just with `flexbox` and `css grid`, it doesn't mean you should stop using `@media queries`. 
+It is recommended to combine these two properties with media queries when creating responsive pages. 
+
+1. Using only `@media queries` can be painful because you usually have to calculate widths of elements in %. You can end up with something a lot of unnecessary code:
+
+```CSS
+@media only screen and (min-width: 961px) {
+    .card {
+        width: 33.3%;
+    }
+};
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .card {
+        width: 50%;
+    }
+};
+
+@media only screen and (max-width: 400px) {
+    .card {
+        width: 100%;
+    }
+};
+```
+
+
+2. Using only `flexbox` or `css grid` isn't always enough. Sometimes, you want the layout to behave in a specific way for mobile devices, but it can be difficult to achieve only with these two properties.
+This is where `@media queries` become useful.
+Take a look at this simplified example which [combines css grid with @media queries](https://thoughtbot.com/blog/concise-media-queries-with-css-grid) to quickly create flexible responsive layout.
+
+
+<br />
+
+📚 **Useful resources:**
+- 📃 [Logic in Media Queries | CSS Tricks](https://css-tricks.com/logic-in-media-queries/)
+- 📃 **[No Media Query Responsive Layout | CSS Tricks](https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/)**
+- 📃 [Old Media Query Responsive Layout | Interneting is Hard](https://internetingishard.com/html-and-css/responsive-design/)
+- 📃 [Responsive Design | Google](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
+- 📃 **[Using Media Queries in 2018 | Smashing Magazine](https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/)**
