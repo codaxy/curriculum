@@ -647,6 +647,7 @@ Take a look at this simplified example which [combines css grid with @media quer
 >⚠️ **Warning** 
 >
 > `Combining SCSS and CSS variables`
+> -
 >
 > [SASS-lang](https://sass-lang.com/documentation/breaking-changes/css-vars): *To provide maximum compatibility with plain CSS, more recent versions of Sass require SassScript expressions in custom property values to be written within interpolation. Interpolation will also work for older Sass versions, and so is recommended for all stylesheets.* 
 >
