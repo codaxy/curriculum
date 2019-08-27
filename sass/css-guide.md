@@ -54,7 +54,7 @@ Match one or more elements based on their attributes/attribute values.
         color: red;
     }
 ```
-#### [[Pseudo-elements] [D]](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+#### [[Pseudo-elements] [D]](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) //TODO: what's important with :after - content, position,...
 Examples: `:after`, `:before`, `:first-line`...
 ```CSS
     p:after {
@@ -185,7 +185,7 @@ Some CSS properties are inherited from containers. For example, child element wi
         - Resolution [E]: `dpi`, `dpcm`, `dppx`, `x`
     - Percentages [A]
     - Mixing percentages and dimensions [F]
-- Color [C]
+- Color [C] // TODO: explain main color types
 - Image [B]
 - Position [C]
 - Functional notation [D] (`calc()`, `min()`, `max()`,...)
@@ -211,8 +211,8 @@ Most common properties that are usually written shorthand:
     }
 - Margin [A]
 - Padding [A]
-- Background [D]
-- Font [D]
+- Background [D] // TODO: explain background gradient, filters, background-blend-mode,...
+- Font [D] // TODO: explain how to import fonts?
 - Transition [E]
 
 #### [Reading Shorthand] [A]
@@ -335,7 +335,7 @@ When it comes to CSS, the most common cause of problems is the **layout**. Eleme
 >*The float CSS property places an element on the left or right side of its container, allowing **text and inline elements** to wrap around it.* - MDN
 >
 
-// TODO
+// TODO:
 Since it would take too long to explain all these properties, here are some learning resources.
 
 <br />
@@ -353,6 +353,7 @@ Since it would take too long to explain all these properties, here are some lear
 - Display
 
     - 📃 [Understanding CSS Display | Better Programming](https://medium.com/better-programming/understanding-css-display-none-block-inline-and-inline-block-63f6510df93)
+    - 📃 [Visual Formatting Model | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model)
 -  Flexbox
 
     - 📹 **[Flexbox Tutorial | Scrimba / Per Harald Borgen](https://scrimba.com/g/gflexbox)**
@@ -371,9 +372,9 @@ Since it would take too long to explain all these properties, here are some lear
 ## [Transition] [D]
 
 Property `transition` is a shorthand for:
--  `transition-property` (***all***, *color*, *box-shadow*, *background-color*, ...)
+- `transition-property` (***all***, *color* , *box-shadow*, *background-color*, ...)
 - `transition-duration` (*200ms*, *0.2s*, ...)
--  `transition-timing-function` (***ease***, *linear*, *steps(4, end)*,  *cubic-bezier(0.4, 0.0, 1, 1)*, ...)
+- `transition-timing-function` (***ease***, *linear*, *steps(4, end)*,  *cubic-bezier(0.4, 0.0, 1, 1)*, ...)
 - `transition-delay` (*200ms*, *0.2s*, ...)
 
 
@@ -386,7 +387,7 @@ For example, in material design, when you press a button (`:active` state), it s
 ```CSS
     .cxb-button {
         background-color: #f6f6f6;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); /*TODO: this is often confusing, explain how box-shadow works*/
 
         transition: all 0.2s ease-out 0s;
         /*
@@ -500,9 +501,40 @@ It is important to understand that you don't configure the actual animation effe
 - 📃 [Advanced CSS Animation Property - animation-direction | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction)
 - 📃 [Advanced CSS Animation Property - animation-fill-mode | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
 - 📃 [Advanced CSS Animation Property - animation-play-state | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
+- 📃 [A Simple CSS Animation Tutorial | FreeCodeCamp](https://www.freecodecamp.org/news/a-simple-css-animation-tutorial-8a35aa8e87ff/)
 - 📃 [Material Design Motion | Google Material Design](https://material.io/design/motion/speed.html#easing)
 - 📐 **[Best CSS Animation Library | Animista](http://animista.net/)**
 - 📃 [Advanced Page Transition Examples | Tympanus](https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/)
+
+
+## Transform [E]
+
+[`CSS transforms`](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms) change the shape and position of the affected content **without disrupting normal document flow**.
+
+You can transform elements with these properties:
+- transform (***scale, rotate, translate***, *skew*)
+- transform-origin (*used with transforms that need a specific point as a parameter - scale, rotate, skew, ...*)
+
+or if you have a 3D object
+
+- perspective [D]
+- perspective-origin [D]
+
+<br />
+
+> ⚠️ **Notes** 
+>
+> Only elements positioned by the box model can be transformed. As a rule of thumb, an element is positioned by the box model if it has display: block.
+>
+
+<br />
+
+📚 **Useful resources:**
+- 📃 [Using CSS Transforms | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms)
+- 📃 **[Transform Values | CSS Reference](https://cssreference.io/property/transform/)**
+- 📃 [Transform Origin | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
+- 📃 [Transform | CSS Tricks](https://css-tricks.com/almanac/properties/t/transform/)
+- 📃 [3D Transforms | 24 Ways](https://24ways.org/2010/intro-to-css-3d-transforms/)
 
 
 ## Responsive Design [D]
@@ -552,3 +584,81 @@ Take a look at this simplified example which [combines css grid with @media quer
 - 📃 [Old Media Query Responsive Layout | Interneting is Hard](https://internetingishard.com/html-and-css/responsive-design/)
 - 📃 [Responsive Design | Google](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
 - 📃 **[Using Media Queries in 2018 | Smashing Magazine](https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/)**
+
+<br/>
+
+## Shapes [F]
+
+## General CSS Tutorials
+- 📃 [Learn CSS - Basic CSS and Applied Visual Design Sections | FreeCodeCamp](https://learn.freecodecamp.org/)
+- 📃 [Introduction CSS | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
+- 📃 [CSS Quick Guide | Tutorials Point](https://www.tutorialspoint.com/css/css_quick_guide.htm)
+- ❔ [CSS Quiz | Tutorialzine](https://tutorialzine.com/2017/07/how-well-do-you-know-css)
+- ❔ [CSS Quiz | David Shariff](http://davidshariff.com/quiz/)
+
+
+<br />
+
+## CSS Variables
+
+
+## SCSS
+- nesting [A]
+- ampersand *&* [A]
+- variables [A]
+- interpolation [A]
+- %placeholder [D]
+- @ Rules
+    - @import [A]
+    - @extend [C]
+    - @mixin [C]
+    - @include [C]
+    - @function [C]
+    - @error [E]
+    - @warn [E]
+    - @debug [E]
+    - @at-root [E]
+- Flow Control [D]
+    - @if and @else
+    - @each
+    - @for
+    - @while
+-  Values
+    - numbers
+    - strings
+    - colors
+    - lists [D]
+    - maps [D]
+    - true and false
+    - null
+- Built-In Funtions
+    - plain CSS (*radial-gradient(red, blue)*) [D]
+    - numbers (*abs, ceil, min*, ...) [B]
+    - strings (*quote, str-index, str-insert*, ...) [D]
+    - colors 
+        - lighten, darken [A]
+        - adjust-color, blue, desaturate, ... [D]
+    - lists (*append, index, join*, ...) [E]
+    - maps (*map-get, map-has-key, map-merge*, ...) [E]
+    - selectors (*selector-extend*, ...) [E]
+
+<br />
+
+>⚠️ **Warning** 
+>
+> `Combining SCSS and CSS variables`
+>
+> [SASS-lang](https://sass-lang.com/documentation/breaking-changes/css-vars): *To provide maximum compatibility with plain CSS, more recent versions of Sass require SassScript expressions in custom property values to be written within interpolation. Interpolation will also work for older Sass versions, and so is recommended for all stylesheets.* 
+>
+> See the image below.
+
+<img src='./images/sass-and-css-variables.png' />
+
+<br />
+
+📚 **Useful resources:**
+- 📃 **[SASS Documentation | SASS Lang](https://sass-lang.com/documentation)**
+- 📃 [SASS Guidelines | Hugo Guiradel](https://sass-guidelin.es/)
+- 📃 [SASS Basics | SASS Lang](https://sass-lang.com/guide)
+- 📃 [Learn SASS in 15 Minutes | Toturialzine](https://tutorialzine.com/2016/01/learn-sass-in-15-minutes)
+- 📃 [The SASS Ampersand | CSS Tricks](https://css-tricks.com/the-sass-ampersand/)
