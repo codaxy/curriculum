@@ -131,13 +131,16 @@
 - `border`
 - `margin`
 
-#### [POSITION] [C]
+#### [POSITIONING] [C]
 - `static` [B]
 - `relative` [A]
 - `absolute` [A]
 - `fixed` [A]
 - `sticky` [D]
 - `z-index` [C]
+- `float` [A]
+- `vertical-align` [A]
+- `text-align` [A]
 
 #### [DISPLAY] [AD]
 - `inline` [A]
@@ -146,14 +149,6 @@
 - `flexbox` [C]
 - `grid` [D]
 - `table` [D]
-
-#### [`z-index`] [C]
-
-#### [`float`] [A]
-
-#### [`vertical-align`] [A]
-
-#### [`text-align`] [A]
 
 ## Animations
 #### [TRANSITION] [C]
