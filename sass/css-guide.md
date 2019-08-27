@@ -117,7 +117,7 @@ and this CSS
         color: green;
     };
 ```
-#### ❓ Will **`h1`** be `blue`, `red` or `green`?
+### ❓ Will **`h1`** be `blue`, `red` or `green`?
 
 Before answering this, you have to understand how to calculate `CSS specificity`.
 The amount of specificity is measured by four numbers, let's call them `thousands`, `hundreds`, `tens`,and `ones`.
