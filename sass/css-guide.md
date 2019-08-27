@@ -176,7 +176,7 @@ Some CSS properties are inherited from containers. For example, child element wi
 - 📃 [List of Inherited CSS Properties | Git Repo](https://gist.github.com/dcneiner/1137601)
 - 📃 [CSS Inheritance: An Introduction | Sitepoint](https://www.sitepoint.com/css-inheritance-introduction/)
 
-## [Values] [A-F]
+## [Values] [A-E]
 - Textual
     - Pre-defined values (flex-direction: `column`)
     - CSS-wide values (accepted by all CSS properties - `inherit`, `initial`, and `unset`)
@@ -186,7 +186,7 @@ Some CSS properties are inherited from containers. For example, child element wi
     - Numbers [A]
     - Dimensions (`12px`, `1.2em`, `90deg`)
         - Distance 
-            - Relative [A]: `em`, `%`, `vw`...
+            - Relative [A]: `em`, `%`, `vw`... // TODO: explain vw
             - Absolute [A]: `px`, `cm`, `pt`,...
         - Angle [E]: `deg`, `grad`,...
         - Time [D]: `s`, `ms`
