@@ -104,8 +104,18 @@
 - `min()`
 
 ## Properties
+#### [MOST COMMON PROPERTIES] [A]
+- `color`
+- `background-color`
+- `border`
+- `font-size`
+- `font-weight`
+- `margin`
+- `padding`
+- `width`
+- `height`
 
-#### SHORTHAND PROPERTIES [AE]
+#### [SHORTHAND PROPERTIES] [AE]
 - `border` properties [A]
 - `margin` [A]
 - `padding` [A]
@@ -121,13 +131,14 @@
 - `border`
 - `margin`
 
-## Layout
 #### [POSITION] [C]
 - `static` [B]
 - `relative` [A]
 - `absolute` [A]
 - `fixed` [A]
 - `sticky` [D]
+- `z-index` [C]
+
 #### [DISPLAY] [AD]
 - `inline` [A]
 - `inline-block` [A]
