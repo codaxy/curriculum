@@ -435,7 +435,9 @@ Unlike the effects set by `transition` property, `animation` effects don't need 
 
 Also, with `animation` you can set countless states between a start and an end state, or even loop animation. `transition` lets you style the appearance of an element only at the beginning of animation and at its end.
 
-So, if you need an animation to run when the page loads, or you have an animation more complex than a simple A to B state change, it is recommended to use the `animation` property.
+### When to use `animation`? 
+
+If you need an animation to run when the page loads, or you have an animation more complex than a simple A to B state change, it is recommended to use the `animation` property.
 
 [MDN] defines animations as *shorthand CSS property that applies an animation between styles*. It is a shorthand for:
 - **animation-name**
