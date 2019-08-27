@@ -652,6 +652,8 @@ Take a look at this simplified example which [combines css grid with @media quer
 >
 > See the image below.
 
+<br />
+
 <img src='./images/sass-and-css-variables.png' />
 
 <br />
