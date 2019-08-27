@@ -12,10 +12,10 @@
 - External using @import
 
 #### [SYNTAX] [A]
-- Selector
+- [Selector](#SELECTORS)
 - Declaration
-- Property
-- Value
+- [Property](#PROPERTIES)
+- [Value](#VALUES)
 
 ## SELECTORS
 #### [SIMPLE SELECTORS] [A]
@@ -131,7 +131,7 @@
 - `border`
 - `margin`
 
-#### [POSITIONING] [C]
+#### [POSITIONING] [AD]
 - `static` [B]
 - `relative` [A]
 - `absolute` [A]

@@ -601,7 +601,7 @@ Take a look at this simplified example which [combines css grid with @media quer
 ## General CSS Guides and Tutorials
 - 📃 [Learn CSS - Basic CSS and Applied Visual Design Sections | FreeCodeCamp](https://learn.freecodecamp.org/)
 - 📃 [Introduction CSS | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
-- 📃 [Most Common CSS Properties | CSS Reference](https://cssreference.io)
+- 📃 **[Most Common CSS Properties | CSS Reference](https://cssreference.io)**
 - 📃 [CSS Quick Guide | Tutorials Point](https://www.tutorialspoint.com/css/css_quick_guide.htm)
 - ❔ [CSS Quiz | Tutorialzine](https://tutorialzine.com/2017/07/how-well-do-you-know-css)
 - ❔ [CSS Quiz | David Shariff](http://davidshariff.com/quiz/)
