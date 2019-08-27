@@ -20,7 +20,7 @@ There are 3 ways of inserting CSS.
 #### [External] [A] (recommended)
 ```html
     <head>
-        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <link rel="stylesheet" type="text/css" href="/styles/myStyle.css">
     </head>
 ```
 
@@ -28,7 +28,7 @@ There are 3 ways of inserting CSS.
 ```html
     <head>
         <style>
-            @import url("/styles/default.css");
+            @import url("/styles/myStyle.css");
         </style>
     </head>
 ```
