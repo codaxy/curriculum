@@ -428,7 +428,10 @@ For example, in material design, when you press a button (`:active` state), it s
 > 
 > ⚠️ **Note**
 >
-> You can't apply transition to all CSS properties. See the list of [animatable CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties).
+> - You can't apply transition to all CSS properties. See the list of [animatable CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties).
+>
+> - **transition-delay: -400ms;** 
+> You can use negative values for `transition-delay`: the transition will start as if it had already been playing for 400ms.
 
 <br />
 

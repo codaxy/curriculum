@@ -178,11 +178,30 @@
 - `table` [D]
 
 
-
-## Animations
+### Animations
 #### [TRANSITION] [C]
+- `transition-property`
+- `transition-duration`
+- `transition-timing-function`
+- `transition-delay`
+
 #### [ANIMATION] [D]
+- `animation-name`
+- `animation-duration`
+- `animation-timing-function`
+- `animation-delay`
+- `animation-iteration-count`
+- `animation-direction`
+- `animation-fill-mode`
+- `animation-play-state`
+
 #### [TRANSFORM] [E]
+- `transform`
+    - `scale`
+    - `translate`
+    - `skew`
+    - `rotate`
+- `transform-origin`
 
 ##  Responsive design
 #### [MEDIA QUERIES] [B]
