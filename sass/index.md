@@ -104,26 +104,6 @@
 - `min()`
 
 ## Properties
-#### [MOST COMMON PROPERTIES] [A]
-- `color`
-- `background-color`
-- `border`
-- `font-size`
-- `font-weight`
-- `margin`
-- `padding`
-- `width`
-- `height`
-
-#### [SHORTHAND PROPERTIES] [AE]
-- `border` properties [A]
-- `margin` [A]
-- `padding` [A]
-- `background` [C] 
-- `font` [D]
-- `transition` [D]
-- `animation` [E]
-
 #### [TYPOGRAPHY] [A]
 - `color`
 - `font`
@@ -205,6 +185,14 @@
     - `rotate`
 - `transform-origin`
 
+#### [SHORTHAND PROPERTIES] [AE]
+- `border` properties [A]
+- `margin` [A]
+- `padding` [A]
+- `background` [C] 
+- `font` [D]
+- `transition` [D]
+- `animation` [E]
 
 ##  Responsive design
 #### [MEDIA QUERIES] [B]
