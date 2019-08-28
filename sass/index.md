@@ -17,6 +17,8 @@
 - [Property](#PROPERTIES)
 - [Value](#VALUES)
 
+<br />
+
 ## SELECTORS
 #### [SIMPLE SELECTORS] [A]
 - type
@@ -60,6 +62,8 @@
 - Source order specificity
 - !important
 - Universal, combinators, and negation pseudo-class selector specificity
+ 
+ <br />
 
 ## Values
 #### [TEXTUAL] [C]
@@ -102,6 +106,8 @@
 - `cubic-bezier()`
 - `max()`
 - `min()`
+
+<br />
 
 ## Properties
 #### [TYPOGRAPHY] [A]
@@ -159,44 +165,6 @@
 - `grid` [D]
 - `table` [D]
 
-
-### Animations
-#### [TRANSITION] [C]
-- `transition-property`
-- `transition-duration`
-- `transition-timing-function`
-- `transition-delay`
-
-#### [ANIMATION] [D]
-- `animation-name`
-- `animation-duration`
-- `animation-timing-function`
-- `animation-delay`
-- `animation-iteration-count`
-- `animation-direction`
-- `animation-fill-mode`
-- `animation-play-state`
-
-#### [TRANSFORM] [E]
-- `transform`
-    - `scale`
-    - `translate`
-    - `skew`
-    - `rotate`
-- `transform-origin`
-
-#### [SHORTHAND PROPERTIES] [AE]
-- `border` properties [A]
-- `margin` [A]
-- `padding` [A]
-- `background` [C] 
-- `font` [D]
-- `transition` [D]
-- `animation` [E]
-
-##  Responsive design
-#### [MEDIA QUERIES] [B]
-
 #### [FLEXBOX] [C]
 - Container
     - `flex-direction`
@@ -231,6 +199,48 @@
     - `grid-row`
     - `align-self`
 
+### Animations
+#### [TRANSITION] [C]
+- `transition-property`
+- `transition-duration`
+- `transition-timing-function`
+- `transition-delay`
+
+#### [ANIMATION] [D]
+- `animation-name`
+- `animation-duration`
+- `animation-timing-function`
+- `animation-delay`
+- `animation-iteration-count`
+- `animation-direction`
+- `animation-fill-mode`
+- `animation-play-state`
+
+#### [TRANSFORM] [D]
+- `transform`
+    - `scale`
+    - `translate`
+    - `skew`
+    - `rotate`
+- `transform-origin`
+
+#### [SHORTHAND PROPERTIES] [AE]
+- `border` properties [A]
+- `margin` [A]
+- `padding` [A]
+- `background` [C] 
+- `font` [D]
+- `transition` [D]
+- `animation` [E]
+
+<br />
+
+##  Responsive design
+#### [MEDIA QUERIES] [B]
+#### [FLEXBOX] [C]
+#### [CSS GRID] [D]
+
+<br/>
 
 # SCSS
 
