@@ -254,21 +254,21 @@
 - % placeholder
 
 #### [@ Rules] [AE]
-- @import [A]
-- @extend [B]
-- @mixin [C]
-- @include [C]
-- @function [D]
-- @error [E]
-- @warn [E]
-- @debug [E]
-- @at-root [E]
+- `@import` [A]
+- `@extend` [B]
+- `@mixin` [C]
+- `@include` [C]
+- `@function` [D]
+- `@error` [E]
+- `@warn` [E]
+- `@debug` [E]
+- `@at-root` [E]
 
 #### [FLOW CONTROLE] [D]
-- @if and @else
-- @each
-- @for
-- @while
+- `@if` and `@else`
+- `@each`
+- `@for`
+- `@while`
 
 #### [VALUES] [AD]
 - numbers [A]
