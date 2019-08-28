@@ -264,7 +264,7 @@
 - `@debug` [E]
 - `@at-root` [E]
 
-#### [FLOW CONTROLE] [D]
+#### [FLOW CONTROL] [D]
 - `@if` and `@else`
 - `@each`
 - `@for`
