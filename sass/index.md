@@ -244,7 +244,7 @@
     - `align-self`
 
 
-## SCSS
+# SCSS
 
 #### [GENERAL] [A]
 - nesting
