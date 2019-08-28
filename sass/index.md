@@ -124,23 +124,50 @@
 - `transition` [D]
 - `animation` [E]
 
+#### [TYPOGRAPHY] [A]
+- `color`
+- `font-family`
+- `font`
+- `font-size`
+- `font-weight`
+- `text-align`
+- `text-decoration`
+- `text-transform`
+
+#### [BACKGROUND] [AD]
+- `background-color` [A]
+- `background-image` [A]
+- `background-position` [B]
+- `background-repeat` [A]
+- `background-attachment` [D]
+- `bacgkround-size` [C]
+- `background-position` [B]
+- `background-origin` [D]
+
 #### [BOX MODEL] [A]
 - `width`
 - `height`
 - `padding`
 - `border`
 - `margin`
+- `line-height`
+- **`box-sizing`**
 
 #### [POSITIONING] [AD]
-- `static` [B]
-- `relative` [A]
-- `absolute` [A]
-- `fixed` [A]
-- `sticky` [D]
+- `position`
+    - `static` [B]
+    - `relative` [A]
+    - `absolute` [A]
+    - `fixed` [A]
+    - `sticky` [D]
 - `z-index` [C]
 - `float` [A]
 - `vertical-align` [A]
 - `text-align` [A]
+- `top` [A]
+- `right` [A]
+- `bottom` [A]
+- `left` [A]
 
 #### [DISPLAY] [AD]
 - `inline` [A]
@@ -149,6 +176,8 @@
 - `flexbox` [C]
 - `grid` [D]
 - `table` [D]
+
+
 
 ## Animations
 #### [TRANSITION] [C]
