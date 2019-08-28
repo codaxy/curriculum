@@ -126,13 +126,15 @@
 
 #### [TYPOGRAPHY] [A]
 - `color`
-- `font-family`
 - `font`
-- `font-size`
-- `font-weight`
+    - `font-family`
+    - `font-size`
+    - `font-weight`
 - `text-align`
 - `text-decoration`
 - `text-transform`
+- `white-space`
+- `text-overflow`
 
 #### [BACKGROUND] [AD]
 - `background-color` [A]
@@ -203,10 +205,90 @@
     - `rotate`
 - `transform-origin`
 
+
 ##  Responsive design
 #### [MEDIA QUERIES] [B]
+
 #### [FLEXBOX] [C]
+- Container
+    - `flex-direction`
+    - `flex-wrap`
+    - `justify-content`
+    - `align-items`
+    - `align-content`
+- Items
+    - `flex`
+        - `flex-grow`
+        - `flex-shrink`
+        - `flex-basis`
+    - `align-self`
+    - `order`
+
 #### [CSS GRID] [D]
+- Container
+    - `grid-template`
+        - `grid-template-rows`
+        - `grid-template-columns`
+    - `grid-template-areas`
+    - `grid-gap`
+    - `grid-auto-columns`
+    - `grid-auto-flow`
+    - `grid-auto-rows`
+    - `justify-content`
+    - `align-items`
+    - `align-content`
+- Items
+    - `grid-area`
+    - `grid-column`
+    - `grid-row`
+    - `align-self`
+
+
+## SCSS
+
+#### [GENERAL] [A]
+- nesting
+- ampersand *&*
+- variables 
+- interpolation 
+- % placeholder
+
+#### [@ Rules] [AE]
+- @import [A]
+- @extend [B]
+- @mixin [C]
+- @include [C]
+- @function [D]
+- @error [E]
+- @warn [E]
+- @debug [E]
+- @at-root [E]
+
+#### [FLOW CONTROLE] [D]
+- @if and @else
+- @each
+- @for
+- @while
+
+#### [VALUES] [AD]
+- numbers [A]
+- strings [A]
+- colors [A]
+- lists [D]
+- maps [D]
+- true and false [A]
+- null
+
+#### [BUILT-IN FUNCTIONS] [AE]
+- plain CSS (*radial-gradient(red, blue)*) [D]
+- numbers (*abs, ceil, min*, ...) [B]
+- strings (*quote, str-index, str-insert*, ...) [D]
+- colors 
+    - lighten, darken [A]
+    - adjust-color, blue, desaturate, ... [D]
+- lists (*append, index, join*, ...) [E]
+- maps (*map-get, map-has-key, map-merge*, ...) [E]
+- selectors (*selector-extend*, ...) [E]
 
 ## Conventions
 #### [STYLING-CONV] [A]
