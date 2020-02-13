@@ -6,7 +6,7 @@ We are using [CoreFX Style Guidelines](https://github.com/dotnet/corefx/blob/368
  
 1. Exception messages very rarely (if ever) need to end with an exclamation point. Rationale: [english grammar](http://grammar.yourdictionary.com/punctuation/when/when-to-use-exclamation-marks.html), [SO](https://stackoverflow.com/questions/259887/what-style-do-you-use-for-exception-messages)
 
-1. Developers should **avoid** relying on the rule of least privilege for implicit access modifiers (`private`, `public`, `protected`, `internal`) and always specify them **explicitly**. Moreover, this should always be the first keyword (i.e. `private static` instead of `static private`). Rationale: [some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/jbogard/MediatR), VS code generator defaults (CoreFX Guidelines, rule #5)
+1. Developers should **avoid** relying on the rule of least privilege for implicit access modifiers (`private`, `public`, `protected`, `internal`) and always specify them **explicitly**. Moreover, this should always be the first keyword (i.e. `private static` instead of `static private`). Rationale: [some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/jbogard/MediatR), VS code generator defaults (CoreFX Style Guidelines, rule #5)
 
 1. There is almost never a reason to have two or more consecutive blank lines.
 
