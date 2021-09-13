@@ -20,9 +20,71 @@ We are using [CoreFX Style Guidelines](https://github.com/dotnet/corefx/blob/368
 
 1. Always `string`, never `String`. Even in e.g. `string.Empty`, or `string.IsNullOrEmpty(text)`. Rationale: `Name can be simplified`, VS code generator defaults. Also, [some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac).
 
-1. Contrary to CoreFX guidelines, Codaxy does *not* use underscores to prepend private fields (e.g. `private readonly ISession _session`), or `s_`, `t_`, and similar prefixes for static fields, thread-static fields, etc. However, due to the popularity of this style ([some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac)), we do not forbid it for new projects. If you do decide to use it, make sure you're consistent throughout the **entire project** and avoid using `this.` unless absolutely necessary, as CoreFX team recommends.
+1. Contrary to CoreFX guidelines, Codaxy does *not* use underscores to prepend private fields (e.g. `private readonly ISession _session`), or `s_`, `t_`, and similar prefixes for static fields, thread-static fields, etc. However, due to the popularity of this style ([some](https://github.com/openiddict) [great](https://github.com/aspnet-contrib/) [.NET](https://github.com/dotnet/corefx) [projects](https://github.com/autofac/Autofac)), we do not forbid it for new projects. If you do decide to use it, make sure you're consistent throughout the **entire project** and avoid using `this.` unless absolutely necessary, as CoreFX team recommends. UPDATE: there is an indication that this will become the preferred style and possibly enforced for new projects so this rule should be considered subject to change.
 
 1. We use `var` much more freely than CoreFX team recommends, but following that recommendation is encouraged.
 
 1. We don't usually tidy up our imports (remove unused and sort alphabetically) and don't really care about it at the moment. Just make sure they're on top of the file, outside the namespace.
 
+1. [Switch expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression) are preferred over bulky switch statements whenever they make sense. E.g:
+
+```
+// no:
+string str;
+switch (action) {
+    case Action.Add:
+        str = "Adding stuff";
+        break;
+
+    case Action.Change:
+        str = "Changing stuff";
+        break;
+
+    case Action.Delete:
+        str = "Deleting stuff";
+        break;
+
+    default:
+        throw new ArgumentOutOfRangeException(nameof(action), $"Unexpected action value: {action}.");
+}
+
+// yes:
+string str = action switch {
+    Action.Add      => "Adding stuff",
+    Action.Change   => "Changing stuff",
+    Action.Delete   => "Deleting stuff,
+    _  => throw new ArgumentOutOfRangeException(nameof(action), $"Unexpected action value: {action}."),
+}
+```
+
+14. In general, curly braces should be used conservatively unless it harms code readability:
+
+```
+// yes: 
+using (var s = ...)
+using (var q = ...)
+  if (x == 5)
+    return 7;
+
+// ok:
+using (var s = ...)
+using (var q = ...) 
+{ 
+  if (x == 5)
+    return 7;
+}
+
+// discouraged:
+using (var s = ...) 
+{
+  using (var q = ...) 
+  { 
+     if (x == 5) 
+     {
+        return 7;
+     }
+  }
+}
+```
+
+15. Dependencies should **always** be injected into a class through its constructor--automatic property binding is strongly discouraged. Furthermore, it is usually not recommended to be able to change those dependencies later in the class' instance lifetime, so the respective members should almost always be marked as `readonly`. VS-specific tip: When injecting dependencies into a class constructor, it is recommended to use IDE's IntelliSense to define and initialize corresponding class members when needed: simply specify the argument type and name in the constructor argument list, use the `CTRL .` shortcut (by default) on the argument name and choose either: *"Create and assign field"* (in most cases), or *"Create and assign property"* (rarely). This saves quite a bit of typing and ensures that such fields are readonly by default.
