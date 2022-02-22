@@ -63,7 +63,7 @@ Match one or more elements based on their attributes/attribute values.
         color: red;
     }
 ```
-#### [[Pseudo-elements] [D]](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) //TODO: what's important with :after - content, position,...
+#### [[Pseudo-elements] [D]](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 Examples: `:after`, `:before`, `:first-line`...
 ```CSS
     p:after {
@@ -186,7 +186,7 @@ Some CSS properties are inherited from containers. For example, child element wi
     - Numbers [A]
     - Dimensions (`12px`, `1.2em`, `90deg`)
         - Distance 
-            - Relative [A]: `em`, `%`, `vw`... // TODO: explain vw
+            - Relative [A]: `em`, `%`, `vw`...
             - Absolute [A]: `px`, `cm`, `pt`,...
         - Angle [E]: `deg`, `grad`,...
         - Time [D]: `s`, `ms`
@@ -194,7 +194,7 @@ Some CSS properties are inherited from containers. For example, child element wi
         - Resolution [E]: `dpi`, `dpcm`, `dppx`, `x`
     - Percentages [A]
     - Mixing percentages and dimensions [F]
-- Color [C] // TODO: explain main color types
+- Color [C]
 - Image [B]
 - Position [C]
 - Functional notation [D] (`calc()`, `min()`, `max()`,...)
@@ -204,6 +204,9 @@ Some CSS properties are inherited from containers. For example, child element wi
 📚 **Useful resources:**
 - 📃 [CSS Values and Units | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units)
 - 📃 [CSS Values | W3 Resource](https://www.w3resource.com/css/CSS-values.php)
+- 📃 [A Look at CSS Viewport Units](https://alligator.io/css/viewport-units/#:~:text=vh%20stands%20for%20viewport%20height,when%20the%20viewport%20is%20resized.)
+- 📃 [HEX vs RGB vs HSL](https://blog.bitsrc.io/hex-vs-rgb-vs-hsl-what-is-the-best-method-to-set-css-color-property-f45d2debeee)
+- 📃 [Make picking colors simple](https://bootcamp.uxdesign.cc/why-you-should-ditch-hex-and-use-hsl-to-make-picking-colors-easy-c376f69ae34e)
 
 ### [Shorthand Properties] [A-E]
 Most common properties that are usually written shorthand:
@@ -220,8 +223,8 @@ Most common properties that are usually written shorthand:
     }
 - Margin [A]
 - Padding [A]
-- Background [D] // TODO: explain background gradient, filters, background-blend-mode,...
-- Font [D] // TODO: explain how to import fonts?
+- Background [D]
+- Font [D]
 - Transition [E]
 
 #### [Reading Shorthand] [A]
@@ -229,10 +232,10 @@ Shorthands handling properties related to edges of a box, like `border-width`, `
 
 Shorthand | Reading |
 ---------------- | ------------------ | 
-border-width: 1px; |<img src='https://mdn.mozillademos.org/files/3646/border1.png' /> | 
-border-width: 1px 2px; | <img src='https://mdn.mozillademos.org/files/3647/border2.png' /> |
-border-width: 1px 2px 3px; | <img src='https://mdn.mozillademos.org/files/3648/border3.png' /> |
-border-width: 1px 2px 3px 4px; (read clockwise)  | <img src='https://mdn.mozillademos.org/files/3649/border4.png' /> 
+border-width: 2px; |![image](https://user-images.githubusercontent.com/17080238/155130439-a59bf765-ba2e-489f-ba7f-95ad82c7964c.png)| 
+border-width: 2px 4px; | ![image](https://user-images.githubusercontent.com/17080238/155130309-348a59b2-62c7-4ac0-b0ae-25819c1f64d9.png)|
+border-width: 2px 4px 6px; | ![image](https://user-images.githubusercontent.com/17080238/155130213-08d76b88-6ba1-436f-86ac-a47623326925.png) |
+border-width: 2px 4px 6px 8px; (read clockwise)  | ![image](https://user-images.githubusercontent.com/17080238/155130115-b3f66841-45e2-4039-b794-9a7586ad4667.png)
 
 *Images taken from [MDN]('https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties')*
 
@@ -344,8 +347,8 @@ When it comes to CSS, the most common cause of problems is the **layout**. Eleme
 >*The float CSS property places an element on the left or right side of its container, allowing **text and inline elements** to wrap around it.* - MDN
 >
 
-// TODO:
-Since it would take too long to explain all these properties, here are some learning resources.
+
+Since it would take too long to explain how all these properties work, here are some learning resources.
 
 <br />
 
@@ -391,12 +394,12 @@ You can use both `transition` and `animation` property to add animation effect t
 
 The main difference between the two is that `transition` effect works only when an element changes its state (*:hover*, *:focus*, *:active*, ...), or when it's added to the page, or when it 'gets' or 'loses' a class. Also, `transition` only visualizes property change from a beginning state to an ending state.
 
-For example, in material design, when you press a button (`:active` state), it seems like you're lifting it gradually. This effect is achieved by the `transition` property, which slowly changes button background-color and box-shadow. 
+For example, in material design, when you press a button (`:active` state), it seems like you're lifting it gradually. This effect is achieved by the `transition` property, which slowly changes button background-color and [box-shadow](https://css-tricks.com/almanac/properties/b/box-shadow/). 
 
 ```CSS
     .cxb-button {
         background-color: #f6f6f6;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45); /*TODO: this is often confusing, explain how box-shadow works*/
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
 
         transition: all 0.2s ease-out 0s;
         /*
