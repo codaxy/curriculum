@@ -617,7 +617,9 @@ Take a look at this simplified example which [combines css grid with @media quer
 <br />
 
 ## CSS Variables
-
+> 🚧 **This section will be available soon** 
+>
+>
 
 ## SCSS
 - nesting [A]
