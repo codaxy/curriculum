@@ -161,11 +161,13 @@ As we can see from the table, calculated specificity is the highest for `#mainTi
 <br />
 
 📚 **Useful resources:**
+- ❔  [**Codaxy Specificity Workshop**](https://codaxy-css-practice.netlify.app/specificity-game)
 - 📃 [**CSS Specificity Wars | Stuff and Nonsense**](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) MUST SEE
 - 📃 [How is Specificity Calculated? | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#The_!important_exception)
 - 📃 [Cascade and Inheritance | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance)
 - 📃 [CSS Specificity: Things You Should Know | Smashing Magazine](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 - ❔ [Specificity Quiz](https://mjswensen.github.io/css-power-ups/the-cascade-and-specificity/specificity-quiz/)
+
 
 ## [Inheritance] [B]
 Some CSS properties are inherited from containers. For example, child element will have the same `color` and `font` as its container, if not specified otherwise.
