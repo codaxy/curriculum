@@ -379,6 +379,7 @@ Since it would take too long to explain how all these properties work, here are 
 - Grid
     - 📹 **[Grid Tutorial | Scrimba / Per Harald Borgen](https://scrimba.com/g/gflexbox)**
     - 📹 [Grid Tutorial | Wes Bos](https://courses.wesbos.com/account/access/5d41a44985f96c03c1e50f80)
+    -  📐 [Learn CSS Grid | Griddy](https://griddy.io/)
 
 - Z-index
     - 📃 [The Z-Index CSS Property: A Comprehensive Look | Smashing Magazine](https://www.smashingmagazine.com/2009/09/the-z-index-css-property-a-comprehensive-look/) 
