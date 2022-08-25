@@ -193,4 +193,5 @@
 - [You Don't Know JS (book series)](https://github.com/getify/You-Dont-Know-JS)
 - [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- [JavaScript - Clean Code Guidelines](https://github.com/ryanmcdermott/clean-code-javascript)
 
