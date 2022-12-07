@@ -129,16 +129,16 @@
 - Integration tests
 - Test-driven development
 
-## Parallel programming
+## Concurrent and Parallel programming
 
-##### [PARALLEL] [B]
+##### [CONPAR] [B]
 - Concurrent data structures
 
-##### [PARALLEL] [C]
+##### [CONPAR] [C]
 - Main/background thread
 - Multi-threading
 - Locking mechanisms
 - Deadlocks
 
-##### [PARALLEL] [DE]
+##### [CONPAR] [DE]
 - Parallel algorithms
