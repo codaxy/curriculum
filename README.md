@@ -53,12 +53,12 @@ Copyrighted material (e.g. PDF books) is not allowed in this repository.
 
 ## Table of Contents
 
-- [General Programming](programming/index.md)
-- [JavaScript](js/index.md)
-- [SASS and Styling](sass/index.md)
-- [CxJS](cxjs/index.md)
-- [.NET](dotnet/index.md)
-- [Databases](sql/index.md)
-- [Git](git/index.md)
-- [Cloud](cloud/index.md)
-- [DevOps](devops/index.md)
+- [General Programming](programming/README.md)
+- [JavaScript](js/README.md)
+- [SASS and Styling](sass/README.md)
+- [CxJS](cxjs/README.md)
+- [.NET](dotnet/README.md)
+- [Databases](sql/README.md)
+- [Git](git/README.md)
+- [Cloud](cloud/README.md)
+- [DevOps](devops/README.md)
